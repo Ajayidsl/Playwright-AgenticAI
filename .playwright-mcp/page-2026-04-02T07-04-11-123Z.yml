@@ -1,0 +1,27 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img "Logo" [ref=e7]
+      - heading "Log In" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Login in to continue to our application
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]: Email
+        - generic [ref=e13]:
+          - img [ref=e14]
+          - textbox "Email" [ref=e17]:
+            - /placeholder: Email address
+      - generic [ref=e18]:
+        - generic [ref=e19]: Password
+        - generic [ref=e20]:
+          - img [ref=e21]
+          - textbox "Password" [ref=e24]
+          - button [ref=e25] [cursor=pointer]:
+            - img [ref=e26]
+      - button "Log In" [ref=e28] [cursor=pointer]
+      - paragraph [ref=e30]:
+        - text: Forgot your password?
+        - button "Reset" [ref=e31] [cursor=pointer]

@@ -1,0 +1,124 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e324]:
+    - complementary [ref=e325]:
+      - img "Logo" [ref=e327]
+      - navigation [ref=e328]:
+        - list [ref=e329]:
+          - listitem [ref=e330]:
+            - button "Divisions" [ref=e331] [cursor=pointer]:
+              - img [ref=e332]
+              - generic [ref=e335]: Divisions
+          - listitem [ref=e336]:
+            - button "Departments" [ref=e337] [cursor=pointer]:
+              - img [ref=e338]
+              - generic [ref=e342]: Departments
+          - listitem [ref=e343]:
+            - button "Locations" [ref=e344] [cursor=pointer]:
+              - img [ref=e345]
+              - generic [ref=e348]: Locations
+          - listitem [ref=e349]:
+            - button "User Management" [ref=e350] [cursor=pointer]:
+              - img [ref=e351]
+              - generic [ref=e363]: User Management
+          - listitem [ref=e364]:
+            - button "Filename (Attachments)" [ref=e365] [cursor=pointer]:
+              - img [ref=e366]
+              - generic [ref=e370]: Filename (Attachments)
+          - listitem [ref=e371]:
+            - button "Process Name" [ref=e372] [cursor=pointer]:
+              - img [ref=e373]
+              - generic [ref=e377]: Process Name
+          - listitem [ref=e378]:
+            - button "Review Process Manual" [ref=e379] [cursor=pointer]:
+              - img [ref=e380]
+              - generic [ref=e385]: Review Process Manual
+          - listitem [ref=e386]:
+            - button "Review RMF" [ref=e387] [cursor=pointer]:
+              - img [ref=e388]
+              - generic [ref=e392]: Review RMF
+      - generic [ref=e393]:
+        - generic [ref=e394]: A
+        - generic [ref=e395]:
+          - paragraph [ref=e396]: Admin Ids
+          - paragraph [ref=e397]: admin@idsil.com
+    - generic [ref=e398]:
+      - banner [ref=e399]:
+        - button [ref=e401] [cursor=pointer]:
+          - img [ref=e402]
+        - generic [ref=e405]:
+          - generic [ref=e406]: Welcome, Admin Ids
+          - button [ref=e407] [cursor=pointer]:
+            - img
+      - main [ref=e408]:
+        - generic [ref=e410]:
+          - generic [ref=e412]:
+            - heading "Division Management" [level=2] [ref=e413]
+            - generic [ref=e414]:
+              - generic [ref=e415]:
+                - generic [ref=e416]:
+                  - img [ref=e417]
+                  - textbox "Division's name" [ref=e420]
+                - button "Search" [ref=e421] [cursor=pointer]
+              - generic [ref=e422]:
+                - button "Add New" [ref=e423] [cursor=pointer]:
+                  - img [ref=e424]
+                  - text: Add New
+                - button "Download Excel" [ref=e425] [cursor=pointer]:
+                  - img [ref=e426]
+                  - text: Download Excel
+          - generic [ref=e431] [cursor=pointer]:
+            - generic [ref=e433]:
+              - combobox [ref=e435]
+              - generic "All Status" [ref=e436]
+            - generic:
+              - img:
+                - img
+          - table [ref=e438]:
+            - rowgroup [ref=e439]:
+              - row "Division ▲ ▼ Status ▲ ▼ Created By ▲ ▼ Modified By Created On ▲ ▼ Modified On Actions" [ref=e440]:
+                - columnheader "Division ▲ ▼" [ref=e441] [cursor=pointer]:
+                  - generic [ref=e442]:
+                    - text: Division
+                    - generic [ref=e443]:
+                      - generic [ref=e444]: ▲
+                      - generic [ref=e445]: ▼
+                - columnheader "Status ▲ ▼" [ref=e446] [cursor=pointer]:
+                  - generic [ref=e447]:
+                    - text: Status
+                    - generic [ref=e448]:
+                      - generic [ref=e449]: ▲
+                      - generic [ref=e450]: ▼
+                - columnheader "Created By ▲ ▼" [ref=e451] [cursor=pointer]:
+                  - generic [ref=e452]:
+                    - text: Created By
+                    - generic [ref=e453]:
+                      - generic [ref=e454]: ▲
+                      - generic [ref=e455]: ▼
+                - columnheader "Modified By" [ref=e456]
+                - columnheader "Created On ▲ ▼" [ref=e457] [cursor=pointer]:
+                  - generic [ref=e458]:
+                    - text: Created On
+                    - generic [ref=e459]:
+                      - generic [ref=e460]: ▲
+                      - generic [ref=e461]: ▼
+                - columnheader "Modified On" [ref=e462]
+                - columnheader "Actions" [ref=e463]
+            - rowgroup [ref=e464]:
+              - row "No divisions found" [ref=e465]:
+                - cell "No divisions found" [ref=e466]
+          - generic [ref=e467]:
+            - generic [ref=e468]:
+              - generic [ref=e469]: "Rows per page:"
+              - combobox [ref=e470]:
+                - option "10" [selected]
+                - option "20"
+                - option "30"
+                - option "50"
+            - generic [ref=e471]:
+              - generic [ref=e472]: Page 1 of 0 | Total 0
+              - generic [ref=e473]:
+                - button "Previous" [disabled] [ref=e474]
+                - button "Next" [ref=e475] [cursor=pointer]

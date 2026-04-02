@@ -1,0 +1,406 @@
+[    2084ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://192.168.137.75:8081/node_modules/.vite/deps/react-router-dom.js?v=c3430df0:4392
+[    2084ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://192.168.137.75:8081/node_modules/.vite/deps/react-router-dom.js?v=c3430df0:4392
+[ 1043296ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139864999' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1043296ms] [ERROR] [hmr] Failed to reload /src/contexts/AuthContext.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046007ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046008ms] [ERROR] [hmr] Failed to reload /src/pages/SearchResult.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046008ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046008ms] [ERROR] [hmr] Failed to reload /src/components/process-manual/EditProcessManualDialog.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046008ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046008ms] [ERROR] [hmr] Failed to reload /src/pages/admin/Users.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046008ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046008ms] [ERROR] [hmr] Failed to reload /src/pages/admin/ProcessManagement.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046008ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046009ms] [ERROR] [hmr] Failed to reload /src/pages/admin/SubProcessManagement.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046009ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046009ms] [ERROR] [hmr] Failed to reload /src/components/admin/AddEditUserForm.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046009ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046009ms] [ERROR] [hmr] Failed to reload /src/components/admin/AddEditSubProcessForm.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046009ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046009ms] [ERROR] [hmr] Failed to reload /src/contexts/AuthContext.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046009ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046009ms] [ERROR] [hmr] Failed to reload /src/pages/admin/Locations.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046009ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046010ms] [ERROR] [hmr] Failed to reload /src/components/admin/AddEditUserForm.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046010ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046010ms] [ERROR] [hmr] Failed to reload /src/pages/ProcessManualApproveReject.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046010ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046010ms] [ERROR] [hmr] Failed to reload /src/components/admin/AddEditSubProcessForm.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046010ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046010ms] [ERROR] [hmr] Failed to reload /src/components/admin/AssignDepartmentToProcess.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046010ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046010ms] [ERROR] [hmr] Failed to reload /src/pages/admin/Divisions.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046010ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046011ms] [ERROR] [hmr] Failed to reload /src/components/admin/AddEditProcessForm.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046011ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046011ms] [ERROR] [hmr] Failed to reload /src/components/admin/AddEditProcessForm.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046011ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046011ms] [ERROR] [hmr] Failed to reload /src/components/process-manual/EditProcessManualDialog.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046011ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046011ms] [ERROR] [hmr] Failed to reload /src/pages/SearchResult.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046011ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046011ms] [ERROR] [hmr] Failed to reload /src/pages/admin/Users.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046012ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046012ms] [ERROR] [hmr] Failed to reload /src/components/process-manual/EditPMForApproveReject.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046012ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046012ms] [ERROR] [hmr] Failed to reload /src/pages/ProcessManualApproveReject.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046012ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046012ms] [ERROR] [hmr] Failed to reload /src/components/admin/AssignDivDeptModal.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046012ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046012ms] [ERROR] [hmr] Failed to reload /src/pages/ForgotPassword.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046012ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046012ms] [ERROR] [hmr] Failed to reload /src/components/admin/AddEditDepartmentForm.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046013ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046013ms] [ERROR] [hmr] Failed to reload /src/components/process-manual/PostManualModalForApproveReject.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046013ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046013ms] [ERROR] [hmr] Failed to reload /src/components/admin/AddEditDepartmentForm.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046013ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046013ms] [ERROR] [hmr] Failed to reload /src/pages/admin/Locations.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046013ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046013ms] [ERROR] [hmr] Failed to reload /src/pages/admin/Departments.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046013ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046013ms] [ERROR] [hmr] Failed to reload /src/components/EditFIleDialog.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046013ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046014ms] [ERROR] [hmr] Failed to reload /src/components/process-manual/PostManualModalForApproveReject.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046014ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046014ms] [ERROR] [hmr] Failed to reload /src/components/admin/AssignDepartmentToProcess.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046014ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046014ms] [ERROR] [hmr] Failed to reload /src/pages/admin/ProcessManagement.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046014ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046014ms] [ERROR] [hmr] Failed to reload /src/pages/admin/Departments.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046014ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046014ms] [ERROR] [hmr] Failed to reload /src/components/process-manual/EditPMForApproveReject.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046014ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046014ms] [ERROR] [hmr] Failed to reload /src/components/admin/AssignDivDeptModal.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046015ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046015ms] [ERROR] [hmr] Failed to reload /src/pages/PMFilterResults.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046015ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046015ms] [ERROR] [hmr] Failed to reload /src/pages/ChangePassword.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046015ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046015ms] [ERROR] [hmr] Failed to reload /src/pages/ChangePassword.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046015ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046015ms] [ERROR] [hmr] Failed to reload /src/pages/ForgotPassword.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046015ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046015ms] [ERROR] [hmr] Failed to reload /src/pages/FullPageViewer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046016ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046016ms] [ERROR] [hmr] Failed to reload /src/pages/admin/Divisions.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046031ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046031ms] [ERROR] [hmr] Failed to reload /src/components/process-manual/CreateProcessManualDialog.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046032ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046032ms] [ERROR] [hmr] Failed to reload /src/pages/ProcessManual.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046032ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046032ms] [ERROR] [hmr] Failed to reload /src/pages/admin/File.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046032ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046032ms] [ERROR] [hmr] Failed to reload /src/components/process-manual/CreateProcessManualDialog.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046060ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046060ms] [ERROR] [hmr] Failed to reload /src/components/CreateFileDialog.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046060ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046061ms] [ERROR] [hmr] Failed to reload /src/pages/ReferenceFile.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046061ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046061ms] [ERROR] [hmr] Failed to reload /src/pages/admin/File.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046138ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046138ms] [ERROR] [hmr] Failed to reload /src/components/EditFIleDialog.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046138ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046139ms] [ERROR] [hmr] Failed to reload /src/components/PostRmfForAR.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046139ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046139ms] [ERROR] [hmr] Failed to reload /src/components/PostRmfForAR.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046139ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046139ms] [ERROR] [hmr] Failed to reload /src/pages/ReferenceFileApproveReject.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046139ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046139ms] [ERROR] [hmr] Failed to reload /src/pages/ReferenceFile.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046139ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046139ms] [ERROR] [hmr] Failed to reload /src/components/CreateFileDialog.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046140ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046140ms] [ERROR] [hmr] Failed to reload /src/pages/ReferenceFileApproveReject.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046140ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046140ms] [ERROR] [hmr] Failed to reload /src/components/EditRmfForAR.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046140ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046140ms] [ERROR] [hmr] Failed to reload /src/components/EditRmfForAR.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046149ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046149ms] [ERROR] [hmr] Failed to reload /src/pages/FullPageViewer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046161ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046162ms] [ERROR] [hmr] Failed to reload /src/pages/ProcessManual.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046162ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046162ms] [ERROR] [hmr] Failed to reload /src/pages/PMFilterResults.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1046162ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139866450' does not provide an export named 'API_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1046162ms] [ERROR] [hmr] Failed to reload /src/pages/admin/SubProcessManagement.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1049336ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139871268' does not provide an export named 'DOCKER_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1049337ms] [ERROR] [hmr] Failed to reload /src/pages/DraftAndReviewViewer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1049337ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139871268' does not provide an export named 'DOCKER_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1049337ms] [ERROR] [hmr] Failed to reload /src/pages/ReadOnlyViewer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1049376ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139871268' does not provide an export named 'DOCKER_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1049376ms] [ERROR] [hmr] Failed to reload /src/pages/FullPageViewer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1049384ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139871268' does not provide an export named 'DOCKER_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1049384ms] [ERROR] [hmr] Failed to reload /src/components/EditFIleDialog.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1049578ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139871268' does not provide an export named 'DOCKER_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1049579ms] [ERROR] [hmr] Failed to reload /src/pages/SearchResult.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1049579ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139871268' does not provide an export named 'DOCKER_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1049579ms] [ERROR] [hmr] Failed to reload /src/pages/PMFilterResults.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1049580ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139871268' does not provide an export named 'DOCKER_BASE_URL' @ http://192.168.137.75:8081/@vite/client:173
+[ 1049580ms] [ERROR] [hmr] Failed to reload /src/components/process-manual/EditProcessManualDialog.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1049580ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139871268' does not provide an export named 'BLANK_FILE' @ http://192.168.137.75:8081/@vite/client:173
+[ 1049580ms] [ERROR] [hmr] Failed to reload /src/components/process-manual/CreateProcessManualDialog.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1049581ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139871268' does not provide an export named 'BLANK_FILE' @ http://192.168.137.75:8081/@vite/client:173
+[ 1049581ms] [ERROR] [hmr] Failed to reload /src/pages/ProcessManual.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1049581ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139871268' does not provide an export named 'BLANK_FILE' @ http://192.168.137.75:8081/@vite/client:173
+[ 1049581ms] [ERROR] [hmr] Failed to reload /src/pages/ReferenceFile.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1049581ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139871268' does not provide an export named 'BLANK_FILE' @ http://192.168.137.75:8081/@vite/client:173
+[ 1049581ms] [ERROR] [hmr] Failed to reload /src/components/CreateFileDialog.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1049610ms] Error: useAuth must be used within AuthProvider
+    at useAuth (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773123562697:253:21)
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773136481274:101:33)
+    at renderWithHooks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:11548:26)
+    at mountIndeterminateComponent (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14926:21)
+    at beginWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3674:22)
+    at Object.invokeGuardedCallbackDev (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3699:24)
+    at invokeGuardedCallback (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3733:39)
+    at beginWork$1 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19765:15)
+    at performUnitOfWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19198:20)
+    at workLoopSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19137:13)
+    at renderRootSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19116:15)
+    at performSyncWorkOnRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18874:28)
+    at flushSyncCallbacks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:9119:30)
+    at flushSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18959:15)
+    at Object.scheduleRefresh (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:20004:13)
+[ 1049618ms] Error: useAuth must be used within AuthProvider
+    at useAuth (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773123562697:253:21)
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773136481274:101:33)
+    at renderWithHooks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:11548:26)
+    at mountIndeterminateComponent (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14926:21)
+    at beginWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3674:22)
+    at Object.invokeGuardedCallbackDev (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3699:24)
+    at invokeGuardedCallback (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3733:39)
+    at beginWork$1 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19765:15)
+    at performUnitOfWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19198:20)
+    at workLoopSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19137:13)
+    at renderRootSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19116:15)
+    at recoverFromConcurrentError (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18736:28)
+    at performSyncWorkOnRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18879:28)
+    at flushSyncCallbacks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:9119:30)
+    at flushSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18959:15)
+[ 1049622ms] [ERROR] The above error occurred in the <AppRoutes> component:
+
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773136481274:101:33)
+    at AuthProvider (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773139871268:28:32)
+    at Router (http://192.168.137.75:8081/node_modules/.vite/deps/react-router-dom.js?v=c3430df0:4501:15)
+    at BrowserRouter (http://192.168.137.75:8081/node_modules/.vite/deps/react-router-dom.js?v=c3430df0:5247:5)
+    at Provider (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-ZI3AFUQG.js?v=c3430df0:49:15)
+    at TooltipProvider (http://192.168.137.75:8081/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=c3430df0:62:5)
+    at QueryClientProvider (http://192.168.137.75:8081/node_modules/.vite/deps/@tanstack_react-query.js?v=c3430df0:3081:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14031
+[ 1049629ms] Error: useAuth must be used within AuthProvider
+    at useAuth (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773123562697:253:21)
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773136481274:101:33)
+    at renderWithHooks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:11548:26)
+    at mountIndeterminateComponent (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14926:21)
+    at beginWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:15914:22)
+    at beginWork$1 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19753:22)
+    at performUnitOfWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19198:20)
+    at workLoopSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19137:13)
+    at renderRootSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19116:15)
+    at recoverFromConcurrentError (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18736:28)
+    at performSyncWorkOnRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18879:28)
+    at flushSyncCallbacks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:9119:30)
+    at flushSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18959:15)
+    at Object.scheduleRefresh (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:20004:13)
+    at http://192.168.137.75:8081/@react-refresh:228:17
+    at Set.forEach (<anonymous>)
+[ 1050018ms] [ERROR] SyntaxError: The requested module '/src/services/apiConfig.ts?t=1773139871268' does not provide an export named 'BLANK_FILE' @ http://192.168.137.75:8081/@vite/client:173
+[ 1050019ms] [ERROR] [hmr] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://192.168.137.75:8081/@vite/client:175
+[ 1050044ms] Error: useAuth must be used within AuthProvider
+    at useAuth (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773123562697:253:21)
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773136481274:101:33)
+    at renderWithHooks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:11548:26)
+    at mountIndeterminateComponent (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14926:21)
+    at beginWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3674:22)
+    at Object.invokeGuardedCallbackDev (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3699:24)
+    at invokeGuardedCallback (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3733:39)
+    at beginWork$1 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19765:15)
+    at performUnitOfWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19198:20)
+    at workLoopSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19137:13)
+    at renderRootSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19116:15)
+    at performSyncWorkOnRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18874:28)
+    at flushSyncCallbacks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:9119:30)
+    at flushSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18959:15)
+    at Object.scheduleRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:20015:13)
+[ 1050046ms] Error: useAuth must be used within AuthProvider
+    at useAuth (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773123562697:253:21)
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773136481274:101:33)
+    at renderWithHooks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:11548:26)
+    at mountIndeterminateComponent (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14926:21)
+    at beginWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3674:22)
+    at Object.invokeGuardedCallbackDev (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3699:24)
+    at invokeGuardedCallback (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3733:39)
+    at beginWork$1 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19765:15)
+    at performUnitOfWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19198:20)
+    at workLoopSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19137:13)
+    at renderRootSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19116:15)
+    at recoverFromConcurrentError (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18736:28)
+    at performSyncWorkOnRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18879:28)
+    at flushSyncCallbacks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:9119:30)
+    at flushSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18959:15)
+[ 1050045ms] [ERROR] The above error occurred in the <AppRoutes> component:
+
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773136481274:101:33)
+    at AuthProvider (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773139871268:28:32)
+    at Router (http://192.168.137.75:8081/node_modules/.vite/deps/react-router-dom.js?v=c3430df0:4501:15)
+    at BrowserRouter (http://192.168.137.75:8081/node_modules/.vite/deps/react-router-dom.js?v=c3430df0:5247:5)
+    at Provider (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-ZI3AFUQG.js?v=c3430df0:49:15)
+    at TooltipProvider (http://192.168.137.75:8081/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=c3430df0:62:5)
+    at QueryClientProvider (http://192.168.137.75:8081/node_modules/.vite/deps/@tanstack_react-query.js?v=c3430df0:3081:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14031
+[ 1050047ms] Error: useAuth must be used within AuthProvider
+    at useAuth (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773123562697:253:21)
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773136481274:101:33)
+    at renderWithHooks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:11548:26)
+    at mountIndeterminateComponent (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14926:21)
+    at beginWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:15914:22)
+    at beginWork$1 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19753:22)
+    at performUnitOfWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19198:20)
+    at workLoopSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19137:13)
+    at renderRootSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19116:15)
+    at recoverFromConcurrentError (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18736:28)
+    at performSyncWorkOnRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18879:28)
+    at flushSyncCallbacks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:9119:30)
+    at flushSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18959:15)
+    at Object.scheduleRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:20015:13)
+    at http://192.168.137.75:8081/@react-refresh:208:17
+    at Set.forEach (<anonymous>)
+[ 1053059ms] Error: useAuth must be used within AuthProvider
+    at useAuth (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773123562697:253:21)
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773136481274:101:33)
+    at renderWithHooks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:11548:26)
+    at mountIndeterminateComponent (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14926:21)
+    at beginWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3674:22)
+    at Object.invokeGuardedCallbackDev (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3699:24)
+    at invokeGuardedCallback (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3733:39)
+    at beginWork$1 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19765:15)
+    at performUnitOfWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19198:20)
+    at workLoopSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19137:13)
+    at renderRootSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19116:15)
+    at performSyncWorkOnRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18874:28)
+    at flushSyncCallbacks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:9119:30)
+    at flushSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18959:15)
+    at Object.scheduleRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:20015:13)
+[ 1053062ms] Error: useAuth must be used within AuthProvider
+    at useAuth (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773123562697:253:21)
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773136481274:101:33)
+    at renderWithHooks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:11548:26)
+    at mountIndeterminateComponent (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14926:21)
+    at beginWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3674:22)
+    at Object.invokeGuardedCallbackDev (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3699:24)
+    at invokeGuardedCallback (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3733:39)
+    at beginWork$1 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19765:15)
+    at performUnitOfWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19198:20)
+    at workLoopSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19137:13)
+    at renderRootSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19116:15)
+    at recoverFromConcurrentError (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18736:28)
+    at performSyncWorkOnRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18879:28)
+    at flushSyncCallbacks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:9119:30)
+    at flushSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18959:15)
+[ 1053062ms] [ERROR] The above error occurred in the <AppRoutes> component:
+
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773136481274:101:33)
+    at AuthProvider (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773139874628:28:32)
+    at Router (http://192.168.137.75:8081/node_modules/.vite/deps/react-router-dom.js?v=c3430df0:4501:15)
+    at BrowserRouter (http://192.168.137.75:8081/node_modules/.vite/deps/react-router-dom.js?v=c3430df0:5247:5)
+    at Provider (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-ZI3AFUQG.js?v=c3430df0:49:15)
+    at TooltipProvider (http://192.168.137.75:8081/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=c3430df0:62:5)
+    at QueryClientProvider (http://192.168.137.75:8081/node_modules/.vite/deps/@tanstack_react-query.js?v=c3430df0:3081:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14031
+[ 1053063ms] Error: useAuth must be used within AuthProvider
+    at useAuth (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773123562697:253:21)
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773136481274:101:33)
+    at renderWithHooks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:11548:26)
+    at mountIndeterminateComponent (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14926:21)
+    at beginWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:15914:22)
+    at beginWork$1 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19753:22)
+    at performUnitOfWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19198:20)
+    at workLoopSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19137:13)
+    at renderRootSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19116:15)
+    at recoverFromConcurrentError (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18736:28)
+    at performSyncWorkOnRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18879:28)
+    at flushSyncCallbacks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:9119:30)
+    at flushSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18959:15)
+    at Object.scheduleRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:20015:13)
+    at http://192.168.137.75:8081/@react-refresh:208:17
+    at Set.forEach (<anonymous>)
+[ 2037475ms] Error: useAuth must be used within AuthProvider
+    at useAuth (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773139874628:253:21)
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773139874628:101:33)
+    at renderWithHooks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:11548:26)
+    at mountIndeterminateComponent (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14926:21)
+    at beginWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3674:22)
+    at Object.invokeGuardedCallbackDev (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3699:24)
+    at invokeGuardedCallback (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3733:39)
+    at beginWork$1 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19765:15)
+    at performUnitOfWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19198:20)
+    at workLoopSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19137:13)
+    at renderRootSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19116:15)
+    at performSyncWorkOnRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18874:28)
+    at flushSyncCallbacks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:9119:30)
+    at flushSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18959:15)
+    at Object.scheduleRefresh (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:20004:13)
+[ 2037477ms] Error: useAuth must be used within AuthProvider
+    at useAuth (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773139874628:253:21)
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773139874628:101:33)
+    at renderWithHooks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:11548:26)
+    at mountIndeterminateComponent (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14926:21)
+    at beginWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:15914:22)
+    at HTMLUnknownElement.callCallback2 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3674:22)
+    at Object.invokeGuardedCallbackDev (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3699:24)
+    at invokeGuardedCallback (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:3733:39)
+    at beginWork$1 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19765:15)
+    at performUnitOfWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19198:20)
+    at workLoopSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19137:13)
+    at renderRootSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19116:15)
+    at recoverFromConcurrentError (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18736:28)
+    at performSyncWorkOnRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18879:28)
+    at flushSyncCallbacks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:9119:30)
+    at flushSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18959:15)
+[ 2037478ms] [ERROR] The above error occurred in the <AppRoutes> component:
+
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773139874628:101:33)
+    at AuthProvider (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773140859379:28:32)
+    at Router (http://192.168.137.75:8081/node_modules/.vite/deps/react-router-dom.js?v=c3430df0:4501:15)
+    at BrowserRouter (http://192.168.137.75:8081/node_modules/.vite/deps/react-router-dom.js?v=c3430df0:5247:5)
+    at Provider (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-ZI3AFUQG.js?v=c3430df0:49:15)
+    at TooltipProvider (http://192.168.137.75:8081/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=c3430df0:62:5)
+    at QueryClientProvider (http://192.168.137.75:8081/node_modules/.vite/deps/@tanstack_react-query.js?v=c3430df0:3081:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14031
+[ 2037483ms] Error: useAuth must be used within AuthProvider
+    at useAuth (http://192.168.137.75:8081/src/contexts/AuthContext.jsx?t=1773139874628:253:21)
+    at AppRoutes (http://192.168.137.75:8081/src/App.jsx?t=1773139874628:101:33)
+    at renderWithHooks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:11548:26)
+    at mountIndeterminateComponent (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:14926:21)
+    at beginWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:15914:22)
+    at beginWork$1 (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19753:22)
+    at performUnitOfWork (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19198:20)
+    at workLoopSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19137:13)
+    at renderRootSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:19116:15)
+    at recoverFromConcurrentError (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18736:28)
+    at performSyncWorkOnRoot (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18879:28)
+    at flushSyncCallbacks (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:9119:30)
+    at flushSync (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:18959:15)
+    at Object.scheduleRefresh (http://192.168.137.75:8081/node_modules/.vite/deps/chunk-W3FHAHPV.js?v=c3430df0:20004:13)
+    at http://192.168.137.75:8081/@react-refresh:228:17
+    at Set.forEach (<anonymous>)

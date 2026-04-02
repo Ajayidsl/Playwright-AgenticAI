@@ -1,0 +1,30 @@
+{
+  "name": "qa-automation-starter",
+  "version": "1.0.0",
+  "description": "Starter QA automation framework scaffold modeled after the reference project structure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:starter": "playwright test tests/IOTA_TEAM/Starter/starter.spec.js",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "qa",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.4.1",
+    "dotenv": "^16.6.1"
+  },
+  "dependencies": {
+    "langchain": "^1.2.30",
+    "openai": "^6.27.0",
+    "playwright": "^1.58.2"
+  }
+}
