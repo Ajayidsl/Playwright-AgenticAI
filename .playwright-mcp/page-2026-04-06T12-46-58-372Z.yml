@@ -1,0 +1,168 @@
+- generic:
+  - generic:
+    - list
+    - region "Notifications alt+T"
+    - generic:
+      - complementary:
+        - generic:
+          - img
+        - navigation:
+          - list:
+            - listitem:
+              - button:
+                - img
+            - listitem:
+              - button:
+                - img
+            - listitem:
+              - button:
+                - img
+            - listitem:
+              - button:
+                - img
+            - listitem:
+              - button:
+                - img
+            - listitem:
+              - button:
+                - img
+        - generic:
+          - generic: A
+      - generic:
+        - banner:
+          - generic:
+            - button:
+              - img
+          - generic:
+            - generic: Welcome, Admin Ids
+            - button:
+              - img
+        - main:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=2]: Division Management
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                            - textbox:
+                              - /placeholder: Division's name
+                              - text: test
+                          - button: Search
+                    - generic:
+                      - button:
+                        - img
+                        - text: Add New
+                      - button:
+                        - img
+                        - text: Download Excel
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - combobox
+                          - generic: Active
+                      - generic:
+                        - img:
+                          - img
+                  - button:
+                    - img
+                    - text: Clear
+              - generic:
+                - table:
+                  - rowgroup:
+                    - row:
+                      - columnheader:
+                        - generic:
+                          - text: Division
+                          - generic:
+                            - img
+                            - img
+                      - columnheader:
+                        - generic:
+                          - text: Status
+                          - generic:
+                            - img
+                            - img
+                      - columnheader:
+                        - generic:
+                          - text: Created By
+                          - generic:
+                            - img
+                            - img
+                      - columnheader: Modified By
+                      - columnheader:
+                        - generic:
+                          - text: Created On
+                          - generic:
+                            - img
+                            - img
+                      - columnheader: Modified On
+                      - columnheader: Actions
+                  - rowgroup:
+                    - row:
+                      - cell: Test Division 1774941803645
+                      - cell: Active
+                      - cell: Admin Ids
+                      - cell: "-"
+                      - cell: Mar 31, 2026, 01:23 AM
+                      - cell: "-"
+                      - cell:
+                        - button:
+                          - img
+              - generic:
+                - generic:
+                  - generic: "Rows per page:"
+                  - combobox:
+                    - generic: "5"
+                    - img
+                - generic:
+                  - generic: Page 1 of 1 | Total 1
+                  - generic:
+                    - button [disabled]: Previous
+                    - button [disabled]: Next
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=3]:
+                    - img
+                    - text: Add Division
+                  - button:
+                    - img
+                - generic:
+                  - generic:
+                    - generic: Division Name *
+                    - generic:
+                      - img
+                      - textbox:
+                        - /placeholder: Enter division name
+                  - generic:
+                    - generic: Description
+                    - generic:
+                      - img
+                      - textbox:
+                        - /placeholder: Enter description
+                  - generic:
+                    - generic: Status
+                    - generic:
+                      - img
+                      - combobox [expanded]:
+                        - generic: Active
+                        - img
+                      - combobox
+                  - generic:
+                    - button: Cancel
+                    - button: Add Division
+  - listbox [ref=e368]:
+    - option "Active" [active] [selected] [ref=e369]:
+      - img [ref=e372]
+      - generic [ref=e374]: Active
+    - option "Inactive" [ref=e375]:
+      - generic [ref=e377]: Inactive

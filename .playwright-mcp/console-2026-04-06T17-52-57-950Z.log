@@ -1,0 +1,50 @@
+[   21522ms] [ERROR] on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[   21523ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/divisions?page=0&size=1000&status=1:0
+[   21523ms] [ERROR] Failed to fetch departments: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[   21524ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/departments?page=0&size=5&sortBy=createdOn&sortDir=desc:0
+[   21524ms] [ERROR] Failed to fetch departments: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[   21524ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/departments?page=0&size=5&status=&sortBy=createdOn&sortDir=desc:0
+[   97877ms] [ERROR] Failed to fetch divisions: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[   97878ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/divisions?page=0&size=1000&status=1:0
+[   97879ms] [ERROR] Failed to fetch locations: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[   97879ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/locations?page=0&size=1000&status=1:0
+[  266731ms] [ERROR] on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  266732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/divisions?page=0&size=1000&status=1:0
+[  304253ms] [ERROR] on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  304253ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/divisions?page=0&size=1000&status=1:0
+[  304254ms] [ERROR] Failed to fetch departments: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  304254ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/departments?page=0&size=5&sortBy=createdOn&sortDir=desc:0
+[  304255ms] [ERROR] Failed to fetch departments: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  304255ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/departments?page=0&size=5&status=&sortBy=createdOn&sortDir=desc:0
+[  332815ms] [ERROR] on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  332815ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/divisions?page=0&size=1000&status=1:0
+[  347383ms] [ERROR] Failed to fetch departments: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  347384ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/departments?page=0&size=5&sortBy=createdOn&sortDir=desc:0
+[  347384ms] [ERROR] Failed to fetch departments: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  347385ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/departments?page=0&size=5&status=&sortBy=createdOn&sortDir=desc:0
+[  347385ms] [ERROR] Failed to fetch divisions: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  347386ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/divisions?page=0&size=1000&status=1:0
+[  366419ms] [ERROR] Failed to fetch locations: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  366420ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/locations?page=0&size=1000&status=1:0
+[  366420ms] [ERROR] Failed to fetch divisions: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  366421ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/divisions?page=0&size=1000&status=1:0
+[  383613ms] [ERROR] on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  383614ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/divisions?page=0&size=1000&status=1:0
+[  390504ms] [ERROR] Failed to fetch departments: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  390504ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/departments?page=0&size=5&sortBy=createdOn&sortDir=desc:0
+[  390504ms] [ERROR] Failed to fetch departments: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  390505ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/departments?page=0&size=5&status=&sortBy=createdOn&sortDir=desc:0
+[  415206ms] [ERROR] on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  415207ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/divisions?page=0&size=1000&status=1:0
+[  454072ms] [ERROR] on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  454072ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/divisions?page=0&size=1000&status=1:0
+[  454072ms] [ERROR] Failed to fetch departments: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  454073ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/departments?page=0&size=5&sortBy=createdOn&sortDir=desc:0
+[  454073ms] [ERROR] Failed to fetch departments: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  454073ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/departments?page=0&size=5&status=&sortBy=createdOn&sortDir=desc:0
+[  461157ms] [ERROR] Failed to fetch divisions: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  461157ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/divisions?page=0&size=1000&status=1:0
+[  461158ms] [ERROR] Failed to fetch locations: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  461158ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/locations?page=0&size=1000&status=1:0
+[  523768ms] [ERROR] Failed to fetch departments: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[  523768ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/admin-service/api/departments?page=0&size=5&search=test&sortBy=createdOn&sortDir=desc:0

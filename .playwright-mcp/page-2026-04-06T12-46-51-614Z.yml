@@ -1,0 +1,146 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e32]:
+    - complementary [ref=e33]:
+      - img "Logo" [ref=e35]
+      - navigation [ref=e36]:
+        - list [ref=e37]:
+          - listitem [ref=e38]:
+            - button [ref=e39] [cursor=pointer]:
+              - img [ref=e40]
+          - listitem [ref=e43]:
+            - button [ref=e44] [cursor=pointer]:
+              - img [ref=e45]
+          - listitem [ref=e49]:
+            - button [ref=e50] [cursor=pointer]:
+              - img [ref=e51]
+          - listitem [ref=e54]:
+            - button [ref=e55] [cursor=pointer]:
+              - img [ref=e56]
+          - listitem [ref=e68]:
+            - button [ref=e69] [cursor=pointer]:
+              - img [ref=e70]
+          - listitem [ref=e74]:
+            - button [ref=e75] [cursor=pointer]:
+              - img [ref=e76]
+      - generic [ref=e81]: A
+    - generic [ref=e82]:
+      - banner [ref=e83]:
+        - button [ref=e85] [cursor=pointer]:
+          - img [ref=e86]
+        - generic [ref=e89]:
+          - generic [ref=e90]: Welcome, Admin Ids
+          - button [ref=e91] [cursor=pointer]:
+            - img
+      - main [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e96]:
+              - heading "Division Management" [level=2] [ref=e97]
+              - generic [ref=e98]:
+                - generic [ref=e101]:
+                  - generic [ref=e102]:
+                    - img [ref=e103]
+                    - textbox "Division's name" [ref=e106]: test
+                  - button "Search" [ref=e107] [cursor=pointer]
+                - generic [ref=e108]:
+                  - button "Add New" [active] [ref=e109] [cursor=pointer]:
+                    - img [ref=e110]
+                    - text: Add New
+                  - button "Download Excel" [ref=e111] [cursor=pointer]:
+                    - img [ref=e112]
+                    - text: Download Excel
+            - generic [ref=e115]:
+              - generic [ref=e117] [cursor=pointer]:
+                - generic [ref=e119]:
+                  - combobox [ref=e121]
+                  - generic "Active" [ref=e274]
+                - generic:
+                  - img:
+                    - img
+              - button "Clear" [ref=e275] [cursor=pointer]:
+                - img [ref=e276]
+                - text: Clear
+            - table [ref=e124]:
+              - rowgroup [ref=e125]:
+                - row "Division Status Created By Modified By Created On Modified On Actions" [ref=e126]:
+                  - columnheader "Division" [ref=e127] [cursor=pointer]:
+                    - generic [ref=e128]:
+                      - text: Division
+                      - generic [ref=e311]:
+                        - img [ref=e312]
+                        - img [ref=e314]
+                  - columnheader "Status" [ref=e134] [cursor=pointer]:
+                    - generic [ref=e135]:
+                      - text: Status
+                      - generic [ref=e316]:
+                        - img [ref=e317]
+                        - img [ref=e319]
+                  - columnheader "Created By" [ref=e141] [cursor=pointer]:
+                    - generic [ref=e142]:
+                      - text: Created By
+                      - generic [ref=e321]:
+                        - img [ref=e322]
+                        - img [ref=e324]
+                  - columnheader "Modified By" [ref=e148]
+                  - columnheader "Created On" [ref=e149] [cursor=pointer]:
+                    - generic [ref=e150]:
+                      - text: Created On
+                      - generic [ref=e326]:
+                        - img [ref=e327]
+                        - img [ref=e329]
+                  - columnheader "Modified On" [ref=e156]
+                  - columnheader "Actions" [ref=e157]
+              - rowgroup [ref=e158]:
+                - row "Test Division 1774941803645 Active Admin Ids - Mar 31, 2026, 01:23 AM - Edit division" [ref=e299]:
+                  - cell "Test Division 1774941803645" [ref=e300]
+                  - cell "Active" [ref=e301]
+                  - cell "Admin Ids" [ref=e302]
+                  - cell "-" [ref=e303]
+                  - cell "Mar 31, 2026, 01:23 AM" [ref=e304]
+                  - cell "-" [ref=e305]
+                  - cell "Edit division" [ref=e306]:
+                    - button "Edit division" [ref=e307] [cursor=pointer]:
+                      - img [ref=e308]
+            - generic [ref=e219]:
+              - generic [ref=e220]:
+                - generic [ref=e221]: "Rows per page:"
+                - combobox [ref=e222] [cursor=pointer]:
+                  - generic: "5"
+                  - img [ref=e223]
+              - generic [ref=e225]:
+                - generic [ref=e226]: Page 1 of 1 | Total 1
+                - generic [ref=e227]:
+                  - button "Previous" [disabled] [ref=e228]
+                  - button "Next" [disabled] [ref=e229]
+          - generic [ref=e332]:
+            - generic [ref=e333]:
+              - heading "Add Division" [level=3] [ref=e334]:
+                - img [ref=e335]
+                - text: Add Division
+              - button [ref=e337] [cursor=pointer]:
+                - img [ref=e338]
+            - generic [ref=e341]:
+              - generic [ref=e342]:
+                - generic [ref=e343]: Division Name *
+                - generic [ref=e344]:
+                  - img [ref=e345]
+                  - textbox "Enter division name" [ref=e347]
+              - generic [ref=e348]:
+                - generic [ref=e349]: Description
+                - generic [ref=e350]:
+                  - img [ref=e351]
+                  - textbox "Enter description" [ref=e354]
+              - generic [ref=e355]:
+                - generic [ref=e356]: Status
+                - generic [ref=e357]:
+                  - img [ref=e358]
+                  - combobox [ref=e361] [cursor=pointer]:
+                    - generic: Active
+                    - img [ref=e362]
+                  - combobox [ref=e364]
+              - generic [ref=e365]:
+                - button "Cancel" [ref=e366] [cursor=pointer]
+                - button "Add Division" [ref=e367] [cursor=pointer]

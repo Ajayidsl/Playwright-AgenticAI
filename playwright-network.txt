@@ -1,0 +1,1 @@
+[GET] http://192.168.71.115:9080/admin-service/api/divisions?page=0&size=5&sortBy=createdOn&sortDir=desc&status= => [200] OK

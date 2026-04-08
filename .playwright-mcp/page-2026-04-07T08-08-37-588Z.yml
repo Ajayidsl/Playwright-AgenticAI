@@ -1,0 +1,327 @@
+- generic:
+  - generic:
+    - list
+    - region "Notifications alt+T"
+    - generic:
+      - complementary:
+        - generic:
+          - img
+        - navigation:
+          - list:
+            - listitem:
+              - button:
+                - img
+            - listitem:
+              - button:
+                - img
+            - listitem:
+              - button:
+                - img
+            - listitem:
+              - button:
+                - img
+            - listitem:
+              - button:
+                - img
+            - listitem:
+              - button:
+                - img
+        - generic:
+          - generic: A
+      - generic:
+        - banner:
+          - generic:
+            - button:
+              - img
+          - generic:
+            - generic: Welcome, Admin Ids
+            - button:
+              - img
+        - main:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=2]: Department Management
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                            - textbox:
+                              - /placeholder: Department's name
+                          - button: Search
+                    - generic:
+                      - button:
+                        - img
+                        - text: Add New
+                      - button:
+                        - img
+                        - text: Download Excel
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - combobox
+                          - generic: Select Division
+                      - generic:
+                        - img:
+                          - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - combobox
+                          - generic: All Status
+                      - generic:
+                        - img:
+                          - img
+              - generic:
+                - generic:
+                  - generic: "Columns:"
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: Department
+                                - generic:
+                                  - img:
+                                    - img
+                            - generic:
+                              - generic:
+                                - generic: Division
+                                - generic:
+                                  - img:
+                                    - img
+                            - generic:
+                              - generic:
+                                - generic: Location
+                                - generic:
+                                  - img:
+                                    - img
+                            - generic:
+                              - generic:
+                                - generic: Status
+                                - generic:
+                                  - img:
+                                    - img
+                            - generic:
+                              - generic:
+                                - generic: Created By
+                                - generic:
+                                  - img:
+                                    - img
+                            - generic:
+                              - generic:
+                                - generic: Modified By
+                                - generic:
+                                  - img:
+                                    - img
+                            - generic:
+                              - generic:
+                                - generic: Created On
+                                - generic:
+                                  - img:
+                                    - img
+                            - generic:
+                              - generic: Modified On
+                              - generic:
+                                - img:
+                                  - img
+                            - generic:
+                              - generic:
+                                - generic: + 1 ...
+                            - generic:
+                              - generic:
+                                - combobox
+                      - generic:
+                        - img:
+                          - img
+              - generic:
+                - table:
+                  - rowgroup:
+                    - row:
+                      - columnheader:
+                        - generic:
+                          - text: Department
+                          - generic:
+                            - img
+                            - img
+                      - columnheader:
+                        - generic:
+                          - text: Division
+                          - generic:
+                            - img
+                            - img
+                      - columnheader: Location
+                      - columnheader:
+                        - generic: Status
+                      - columnheader:
+                        - generic: Created By
+                      - columnheader: Modified By
+                      - columnheader:
+                        - generic:
+                          - text: Created On
+                          - generic:
+                            - img
+                            - img
+                      - columnheader: Modified On
+                      - columnheader: Actions
+                  - rowgroup:
+                    - row:
+                      - cell: Automation Department 1774953334646-379
+                      - cell: Automation Division 1774953334646-528
+                      - cell: Automation Location 1774953334646-979
+                      - cell: Active
+                      - cell: Admin Ids
+                      - cell: "-"
+                      - cell: Mar 31, 2026, 04:36 AM
+                      - cell: "-"
+                      - cell:
+                        - button:
+                          - img
+                    - row:
+                      - cell: Auto Department Demo 20260401091556
+                      - cell: Auto Division Demo 20260401091556
+                      - cell: Auto Location Demo 20260401091556
+                      - cell: Active
+                      - cell: Admin Ids
+                      - cell: "-"
+                      - cell: Apr 1, 2026, 03:16 AM
+                      - cell: "-"
+                      - cell:
+                        - button:
+                          - img
+                    - row:
+                      - cell: Auto Department Demo 20260401091724
+                      - cell: Auto Division Demo 20260401091724
+                      - cell: Auto Location Demo 20260401091724
+                      - cell: Active
+                      - cell: Admin Ids
+                      - cell: "-"
+                      - cell: Apr 1, 2026, 03:18 AM
+                      - cell: "-"
+                      - cell:
+                        - button:
+                          - img
+                    - row:
+                      - cell: Auto Department Demo 20260401092707
+                      - cell: Auto Division Demo 20260401092707
+                      - cell: Auto Location Demo 20260401092707
+                      - cell: Active
+                      - cell: Admin Ids
+                      - cell: "-"
+                      - cell: Apr 1, 2026, 03:27 AM
+                      - cell: "-"
+                      - cell:
+                        - button:
+                          - img
+              - generic:
+                - generic:
+                  - generic: "Rows per page:"
+                  - combobox:
+                    - generic: "10"
+                    - img
+                - generic:
+                  - generic: Page 2 of 2 | Total 14
+                  - generic:
+                    - button: Previous
+                    - button [disabled]: Next
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=3]:
+                      - img
+                      - text: Add Department
+                    - button:
+                      - img
+                  - generic:
+                    - generic:
+                      - generic: Department Name *
+                      - generic:
+                        - img
+                        - textbox:
+                          - /placeholder: Enter department name
+                          - text: Test Department
+                    - generic:
+                      - generic: Description
+                      - generic:
+                        - img
+                        - textbox:
+                          - /placeholder: Enter description
+                          - text: Department modal exploration only
+                    - generic:
+                      - generic: Division *
+                      - generic:
+                        - img
+                        - combobox:
+                          - generic: Auto Division Demo 20260401092707
+                          - img
+                        - combobox
+                    - generic:
+                      - generic: Locations *
+                      - generic:
+                        - img
+                        - combobox [expanded]:
+                          - generic: Add Location
+                          - img
+                        - combobox
+                    - generic:
+                      - generic: Status
+                      - generic:
+                        - img
+                        - combobox:
+                          - generic: Active
+                          - img
+                        - combobox
+                    - generic:
+                      - button: Cancel
+                      - button: Add Department
+  - listbox [ref=e782]:
+    - option "Auto Location Demo 20260401092707" [active] [ref=e783]:
+      - generic [ref=e785]: Auto Location Demo 20260401092707
+    - option "Auto Location Demo 20260401091724" [ref=e786]:
+      - generic [ref=e788]: Auto Location Demo 20260401091724
+    - option "Auto Location Demo 20260401091556" [ref=e789]:
+      - generic [ref=e791]: Auto Location Demo 20260401091556
+    - option "Automation Location 1774953334646-979" [ref=e792]:
+      - generic [ref=e794]: Automation Location 1774953334646-979
+    - option "Automation Location 1774953267082-255" [ref=e795]:
+      - generic [ref=e797]: Automation Location 1774953267082-255
+    - option "Automation Location 1774953265881-564" [ref=e798]:
+      - generic [ref=e800]: Automation Location 1774953265881-564
+    - option "Automation Location 001 1774953266814-472" [ref=e801]:
+      - generic [ref=e803]: Automation Location 001 1774953266814-472
+    - option "Noida Auto 1774871455207" [ref=e804]:
+      - generic [ref=e806]: Noida Auto 1774871455207
+    - option "Noida Auto 1774871244817" [ref=e807]:
+      - generic [ref=e809]: Noida Auto 1774871244817
+    - option "Noida Auto 1774870546851" [ref=e810]:
+      - generic [ref=e812]: Noida Auto 1774870546851
+    - option "Noida Auto 1774870129082" [ref=e813]:
+      - generic [ref=e815]: Noida Auto 1774870129082
+    - option "Noida Auto 1774867618528" [ref=e816]:
+      - generic [ref=e818]: Noida Auto 1774867618528
+    - option "Noida Auto 1774867226770" [ref=e819]:
+      - generic [ref=e821]: Noida Auto 1774867226770
+    - option "Noida Auto 1774866059838" [ref=e822]:
+      - generic [ref=e824]: Noida Auto 1774866059838
+    - option "Noida Auto 1774865733962" [ref=e825]:
+      - generic [ref=e827]: Noida Auto 1774865733962
+    - option "USA" [ref=e828]:
+      - generic [ref=e830]: USA
+    - option "Noida" [ref=e831]:
+      - generic [ref=e833]: Noida
+    - option "Mohali" [ref=e834]:
+      - generic [ref=e836]: Mohali
+    - option "Chandigarh" [ref=e837]:
+      - generic [ref=e839]: Chandigarh
+    - img [ref=e841]

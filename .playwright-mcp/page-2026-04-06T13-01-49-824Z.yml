@@ -1,0 +1,257 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - img "Logo" [ref=e6]
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - button [ref=e10] [cursor=pointer]:
+              - img [ref=e11]
+          - listitem [ref=e14]:
+            - button [ref=e15] [cursor=pointer]:
+              - img [ref=e16]
+          - listitem [ref=e20]:
+            - button [ref=e21] [cursor=pointer]:
+              - img [ref=e22]
+          - listitem [ref=e25]:
+            - button [ref=e26] [cursor=pointer]:
+              - img [ref=e27]
+          - listitem [ref=e39]:
+            - button [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+          - listitem [ref=e45]:
+            - button [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+      - generic [ref=e52]: A
+    - generic [ref=e53]:
+      - banner [ref=e54]:
+        - button [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - generic [ref=e60]:
+          - generic [ref=e61]: Welcome, Admin Ids
+          - button [ref=e62] [cursor=pointer]:
+            - img
+      - main [ref=e63]:
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - heading "Department Management" [level=2] [ref=e68]
+            - generic [ref=e69]:
+              - generic [ref=e72]:
+                - generic [ref=e73]:
+                  - img [ref=e74]
+                  - textbox "Department's name" [ref=e77]
+                - button "Search" [ref=e78] [cursor=pointer]
+              - generic [ref=e79]:
+                - button "Add New" [active] [ref=e80] [cursor=pointer]:
+                  - img [ref=e81]
+                  - text: Add New
+                - button "Download Excel" [ref=e82] [cursor=pointer]:
+                  - img [ref=e83]
+                  - text: Download Excel
+          - generic [ref=e86]:
+            - generic [ref=e88] [cursor=pointer]:
+              - generic [ref=e90]:
+                - combobox [ref=e92]
+                - generic: Select Division
+              - generic:
+                - img:
+                  - img
+            - generic [ref=e94] [cursor=pointer]:
+              - generic [ref=e96]:
+                - combobox [ref=e98]
+                - generic "All Status" [ref=e99]
+              - generic:
+                - img:
+                  - img
+          - generic [ref=e101]:
+            - generic [ref=e102]: "Columns:"
+            - generic [ref=e104] [cursor=pointer]:
+              - generic [ref=e107]:
+                - generic "Department" [ref=e173]:
+                  - generic [ref=e174]: Department
+                  - img [ref=e176]:
+                    - img [ref=e177]
+                - generic "Division" [ref=e180]:
+                  - generic [ref=e181]: Division
+                  - img [ref=e183]:
+                    - img [ref=e184]
+                - generic "Location" [ref=e187]:
+                  - generic [ref=e188]: Location
+                  - img [ref=e190]:
+                    - img [ref=e191]
+                - generic "Status" [ref=e194]:
+                  - generic [ref=e195]: Status
+                  - img [ref=e197]:
+                    - img [ref=e198]
+                - generic "Created By" [ref=e201]:
+                  - generic [ref=e202]: Created By
+                  - img [ref=e204]:
+                    - img [ref=e205]
+                - generic "Modified By" [ref=e208]:
+                  - generic [ref=e209]: Modified By
+                  - img [ref=e211]:
+                    - img [ref=e212]
+                - generic "Created On" [ref=e215]:
+                  - generic [ref=e216]: Created On
+                  - img [ref=e218]:
+                    - img [ref=e219]
+                - generic:
+                  - generic: Modified On
+                  - generic:
+                    - img:
+                      - img
+                - generic "+ 1 ..." [ref=e222]:
+                  - generic [ref=e223]: + 1 ...
+                - combobox [ref=e110]
+              - generic:
+                - img:
+                  - img
+          - table [ref=e112]:
+            - rowgroup [ref=e113]:
+              - row "Department Division Location Status Created By Modified By Created On Modified On Actions" [ref=e114]:
+                - columnheader "Department" [ref=e115] [cursor=pointer]:
+                  - generic [ref=e116]:
+                    - text: Department
+                    - generic [ref=e402]:
+                      - img [ref=e403]
+                      - img [ref=e405]
+                - columnheader "Division" [ref=e122] [cursor=pointer]:
+                  - generic [ref=e123]:
+                    - text: Division
+                    - generic [ref=e407]:
+                      - img [ref=e408]
+                      - img [ref=e410]
+                - columnheader "Location" [ref=e129]
+                - columnheader "Status" [ref=e130] [cursor=pointer]:
+                  - generic [ref=e131]: Status
+                - columnheader "Created By" [ref=e137] [cursor=pointer]:
+                  - generic [ref=e138]: Created By
+                - columnheader "Modified By" [ref=e144]
+                - columnheader "Created On" [ref=e145] [cursor=pointer]:
+                  - generic [ref=e146]:
+                    - text: Created On
+                    - generic [ref=e416]:
+                      - img [ref=e417]
+                      - img [ref=e419]
+                - columnheader "Modified On" [ref=e152]
+                - columnheader "Actions" [ref=e153]
+            - rowgroup [ref=e154]:
+              - row "Auto Department Demo 20260401092707 Auto Division Demo 20260401092707 Auto Location Demo 20260401092707 Active Admin Ids - Apr 1, 2026, 03:27 AM - Edit department" [ref=e332]:
+                - cell "Auto Department Demo 20260401092707" [ref=e333]
+                - cell "Auto Division Demo 20260401092707" [ref=e334]
+                - cell "Auto Location Demo 20260401092707" [ref=e335]
+                - cell "Active" [ref=e336]
+                - cell "Admin Ids" [ref=e337]
+                - cell "-" [ref=e338]
+                - cell "Apr 1, 2026, 03:27 AM" [ref=e339]
+                - cell "-" [ref=e340]
+                - cell "Edit department" [ref=e341]:
+                  - button "Edit department" [ref=e342] [cursor=pointer]:
+                    - img [ref=e343]
+              - row "Auto Department Demo 20260401091724 Auto Division Demo 20260401091724 Auto Location Demo 20260401091724 Active Admin Ids - Apr 1, 2026, 03:18 AM - Edit department" [ref=e346]:
+                - cell "Auto Department Demo 20260401091724" [ref=e347]
+                - cell "Auto Division Demo 20260401091724" [ref=e348]
+                - cell "Auto Location Demo 20260401091724" [ref=e349]
+                - cell "Active" [ref=e350]
+                - cell "Admin Ids" [ref=e351]
+                - cell "-" [ref=e352]
+                - cell "Apr 1, 2026, 03:18 AM" [ref=e353]
+                - cell "-" [ref=e354]
+                - cell "Edit department" [ref=e355]:
+                  - button "Edit department" [ref=e356] [cursor=pointer]:
+                    - img [ref=e357]
+              - row "Auto Department Demo 20260401091556 Auto Division Demo 20260401091556 Auto Location Demo 20260401091556 Active Admin Ids - Apr 1, 2026, 03:16 AM - Edit department" [ref=e360]:
+                - cell "Auto Department Demo 20260401091556" [ref=e361]
+                - cell "Auto Division Demo 20260401091556" [ref=e362]
+                - cell "Auto Location Demo 20260401091556" [ref=e363]
+                - cell "Active" [ref=e364]
+                - cell "Admin Ids" [ref=e365]
+                - cell "-" [ref=e366]
+                - cell "Apr 1, 2026, 03:16 AM" [ref=e367]
+                - cell "-" [ref=e368]
+                - cell "Edit department" [ref=e369]:
+                  - button "Edit department" [ref=e370] [cursor=pointer]:
+                    - img [ref=e371]
+              - row "Automation Department 1774953334646-379 Automation Division 1774953334646-528 Automation Location 1774953334646-979 Active Admin Ids - Mar 31, 2026, 04:36 AM - Edit department" [ref=e374]:
+                - cell "Automation Department 1774953334646-379" [ref=e375]
+                - cell "Automation Division 1774953334646-528" [ref=e376]
+                - cell "Automation Location 1774953334646-979" [ref=e377]
+                - cell "Active" [ref=e378]
+                - cell "Admin Ids" [ref=e379]
+                - cell "-" [ref=e380]
+                - cell "Mar 31, 2026, 04:36 AM" [ref=e381]
+                - cell "-" [ref=e382]
+                - cell "Edit department" [ref=e383]:
+                  - button "Edit department" [ref=e384] [cursor=pointer]:
+                    - img [ref=e385]
+              - row "Automation Department 001 1774953265881-621 Automation Division 1774953265881-98 Automation Location 1774953265881-564 Active Admin Ids - Mar 31, 2026, 04:35 AM - Edit department" [ref=e388]:
+                - cell "Automation Department 001 1774953265881-621" [ref=e389]
+                - cell "Automation Division 1774953265881-98" [ref=e390]
+                - cell "Automation Location 1774953265881-564" [ref=e391]
+                - cell "Active" [ref=e392]
+                - cell "Admin Ids" [ref=e393]
+                - cell "-" [ref=e394]
+                - cell "Mar 31, 2026, 04:35 AM" [ref=e395]
+                - cell "-" [ref=e396]
+                - cell "Edit department" [ref=e397]:
+                  - button "Edit department" [ref=e398] [cursor=pointer]:
+                    - img [ref=e399]
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - generic [ref=e163]: "Rows per page:"
+              - combobox [ref=e164] [cursor=pointer]:
+                - generic: "5"
+                - img [ref=e165]
+            - generic [ref=e167]:
+              - generic [ref=e168]: Page 1 of 3 | Total 14
+              - generic [ref=e169]:
+                - button "Previous" [disabled] [ref=e170]
+                - button "Next" [ref=e171] [cursor=pointer]
+          - generic [ref=e422]:
+            - generic [ref=e423]:
+              - heading "Add Department" [level=3] [ref=e424]:
+                - img [ref=e425]
+                - text: Add Department
+              - button [ref=e427] [cursor=pointer]:
+                - img [ref=e428]
+            - generic [ref=e431]:
+              - generic [ref=e432]:
+                - generic [ref=e433]: Department Name *
+                - generic [ref=e434]:
+                  - img [ref=e435]
+                  - textbox "Enter department name" [ref=e437]
+              - generic [ref=e438]:
+                - generic [ref=e439]: Description
+                - generic [ref=e440]:
+                  - img [ref=e441]
+                  - textbox "Enter description" [ref=e444]
+              - generic [ref=e445]:
+                - generic [ref=e446]: Division *
+                - generic [ref=e447]:
+                  - img [ref=e448]
+                  - combobox [ref=e452] [cursor=pointer]:
+                    - generic: Select Division
+                    - img [ref=e453]
+                  - combobox [ref=e455]
+              - generic [ref=e456]:
+                - generic [ref=e457]: Locations *
+                - generic [ref=e458]:
+                  - img [ref=e459]
+                  - combobox [ref=e462] [cursor=pointer]:
+                    - generic: Add Location
+                    - img [ref=e463]
+                  - combobox [ref=e465]
+              - generic [ref=e466]:
+                - generic [ref=e467]: Status
+                - generic [ref=e468]:
+                  - img [ref=e469]
+                  - combobox [ref=e472] [cursor=pointer]:
+                    - generic: Active
+                    - img [ref=e473]
+                  - combobox [ref=e475]
+              - generic [ref=e476]:
+                - button "Cancel" [ref=e477] [cursor=pointer]
+                - button "Add Department" [ref=e478] [cursor=pointer]

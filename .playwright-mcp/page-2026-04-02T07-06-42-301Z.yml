@@ -1,0 +1,152 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - img "Logo" [ref=e6]
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - button [ref=e10] [cursor=pointer]:
+              - img [ref=e11]
+          - listitem [ref=e14]:
+            - button [ref=e15] [cursor=pointer]:
+              - img [ref=e16]
+          - listitem [ref=e20]:
+            - button [ref=e21] [cursor=pointer]:
+              - img [ref=e22]
+          - listitem [ref=e25]:
+            - button [ref=e26] [cursor=pointer]:
+              - img [ref=e27]
+          - listitem [ref=e39]:
+            - button [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+          - listitem [ref=e45]:
+            - button [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+      - generic [ref=e52]: A
+    - generic [ref=e53]:
+      - banner [ref=e54]:
+        - button [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - generic [ref=e60]:
+          - generic [ref=e61]: Welcome, Admin Ids
+          - button [ref=e62] [cursor=pointer]:
+            - img
+      - main [ref=e63]:
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - heading "Division Management" [level=2] [ref=e68]
+            - generic [ref=e69]:
+              - generic [ref=e72]:
+                - generic [ref=e73]:
+                  - img [ref=e74]
+                  - textbox "Division's name" [ref=e77]
+                - button "Search" [ref=e78] [cursor=pointer]
+              - generic [ref=e79]:
+                - button "Add New" [ref=e80] [cursor=pointer]:
+                  - img [ref=e81]
+                  - text: Add New
+                - button "Download Excel" [ref=e82] [cursor=pointer]:
+                  - img [ref=e83]
+                  - text: Download Excel
+          - generic [ref=e88] [cursor=pointer]:
+            - generic [ref=e90]:
+              - combobox [ref=e92]
+              - generic "All Status" [ref=e93]
+            - generic:
+              - img:
+                - img
+          - table [ref=e95]:
+            - rowgroup [ref=e96]:
+              - row "Division Status Created By Modified By Created On Modified On Actions" [ref=e97]:
+                - columnheader "Division" [ref=e98] [cursor=pointer]:
+                  - generic [ref=e99]:
+                    - text: Division
+                    - generic [ref=e100]:
+                      - img [ref=e101]
+                      - img [ref=e103]
+                - columnheader "Status" [ref=e105] [cursor=pointer]:
+                  - generic [ref=e106]:
+                    - text: Status
+                    - generic [ref=e107]:
+                      - img [ref=e108]
+                      - img [ref=e110]
+                - columnheader "Created By" [ref=e112] [cursor=pointer]:
+                  - generic [ref=e113]:
+                    - text: Created By
+                    - generic [ref=e114]:
+                      - img [ref=e115]
+                      - img [ref=e117]
+                - columnheader "Modified By" [ref=e119]
+                - columnheader "Created On" [ref=e120] [cursor=pointer]:
+                  - generic [ref=e121]:
+                    - text: Created On
+                    - generic [ref=e122]:
+                      - img [ref=e123]
+                      - img [ref=e125]
+                - columnheader "Modified On" [ref=e127]
+                - columnheader "Actions" [ref=e128]
+            - rowgroup [ref=e129]:
+              - row "Auto Division Demo 20260401092707 Active Admin Ids - Apr 1, 2026, 03:27 AM - Edit division" [ref=e130]:
+                - cell "Auto Division Demo 20260401092707" [ref=e131]
+                - cell "Active" [ref=e132]
+                - cell "Admin Ids" [ref=e133]
+                - cell "-" [ref=e134]
+                - cell "Apr 1, 2026, 03:27 AM" [ref=e135]
+                - cell "-" [ref=e136]
+                - cell "Edit division" [ref=e137]:
+                  - button "Edit division" [ref=e138] [cursor=pointer]:
+                    - img [ref=e139]
+              - row "Auto Division Demo 20260401091724 Active Admin Ids - Apr 1, 2026, 03:18 AM - Edit division" [ref=e142]:
+                - cell "Auto Division Demo 20260401091724" [ref=e143]
+                - cell "Active" [ref=e144]
+                - cell "Admin Ids" [ref=e145]
+                - cell "-" [ref=e146]
+                - cell "Apr 1, 2026, 03:18 AM" [ref=e147]
+                - cell "-" [ref=e148]
+                - cell "Edit division" [ref=e149]:
+                  - button "Edit division" [ref=e150] [cursor=pointer]:
+                    - img [ref=e151]
+              - row "Auto Division Demo 20260401091556 Active Admin Ids - Apr 1, 2026, 03:16 AM - Edit division" [ref=e154]:
+                - cell "Auto Division Demo 20260401091556" [ref=e155]
+                - cell "Active" [ref=e156]
+                - cell "Admin Ids" [ref=e157]
+                - cell "-" [ref=e158]
+                - cell "Apr 1, 2026, 03:16 AM" [ref=e159]
+                - cell "-" [ref=e160]
+                - cell "Edit division" [ref=e161]:
+                  - button "Edit division" [ref=e162] [cursor=pointer]:
+                    - img [ref=e163]
+              - row "Automation Division 1774953334646-528 Active Admin Ids - Mar 31, 2026, 04:36 AM - Edit division" [ref=e166]:
+                - cell "Automation Division 1774953334646-528" [ref=e167]
+                - cell "Active" [ref=e168]
+                - cell "Admin Ids" [ref=e169]
+                - cell "-" [ref=e170]
+                - cell "Mar 31, 2026, 04:36 AM" [ref=e171]
+                - cell "-" [ref=e172]
+                - cell "Edit division" [ref=e173]:
+                  - button "Edit division" [ref=e174] [cursor=pointer]:
+                    - img [ref=e175]
+              - row "Automation Division 1774953267082-634 Active Admin Ids - Mar 31, 2026, 04:35 AM - Edit division" [ref=e178]:
+                - cell "Automation Division 1774953267082-634" [ref=e179]
+                - cell "Active" [ref=e180]
+                - cell "Admin Ids" [ref=e181]
+                - cell "-" [ref=e182]
+                - cell "Mar 31, 2026, 04:35 AM" [ref=e183]
+                - cell "-" [ref=e184]
+                - cell "Edit division" [ref=e185]:
+                  - button "Edit division" [ref=e186] [cursor=pointer]:
+                    - img [ref=e187]
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - generic [ref=e192]: "Rows per page:"
+              - combobox [ref=e193] [cursor=pointer]:
+                - generic: "5"
+                - img [ref=e194]
+            - generic [ref=e196]:
+              - generic [ref=e197]: Page 1 of 4 | Total 17
+              - generic [ref=e198]:
+                - button "Previous" [disabled] [ref=e199]
+                - button "Next" [ref=e200] [cursor=pointer]

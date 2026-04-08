@@ -1,0 +1,4 @@
+[     629ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://192.168.71.115/login:0
+[   40000ms] [ERROR] Login error: Network Error @ http://192.168.71.115/assets/index-ODDTIcWD.js:402
+[   40000ms] [ERROR] Login error: on @ http://192.168.71.115/assets/index-ODDTIcWD.js:731
+[   40001ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_TIMED_OUT @ http://192.168.71.115:9080/auth-service/oauth/token:0

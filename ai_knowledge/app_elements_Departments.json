@@ -1,0 +1,276 @@
+{
+  "mode": "module",
+  "modules": [
+    "Departments"
+  ],
+  "summary": {
+    "total": 18,
+    "visited": 15,
+    "blocked": 3,
+    "coverage": 100
+  },
+  "elements": [
+    {
+      "selector": "button:has-text(\"Add New\")",
+      "type": "button",
+      "label": "Add New",
+      "page": "/admin/departments",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "visited"
+    },
+    {
+      "selector": "[placeholder=\"Enter description\"]",
+      "type": "textarea",
+      "label": "Department form description",
+      "page": "/admin/departments",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "visited"
+    },
+    {
+      "selector": "#add-edit-department-form",
+      "type": "form",
+      "label": "Department form modal",
+      "page": "/admin/departments",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "visited"
+    },
+    {
+      "selector": "input[placeholder=\"Enter department name\"]",
+      "type": "input",
+      "label": "Department form name",
+      "page": "/admin/departments",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "visited"
+    },
+    {
+      "selector": "table",
+      "type": "table",
+      "label": "Department listing",
+      "page": "/admin/departments",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "visited"
+    },
+    {
+      "selector": "button:has-text(\"Edit department\")",
+      "type": "button",
+      "label": "Edit department",
+      "page": "/admin/departments",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "visited"
+    },
+    {
+      "selector": "button:has-text(\"Cancel\")",
+      "type": "button",
+      "label": "Cancel",
+      "page": "/admin/departments",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "visited"
+    },
+    {
+      "selector": "text=Columns",
+      "type": "dropdown",
+      "label": "Columns selector",
+      "page": "/admin/departments",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "visited"
+    },
+    {
+      "selector": "th:has-text(\"Created On\")",
+      "type": "columnheader",
+      "label": "Created On sort",
+      "page": "/admin/departments",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "visited"
+    },
+    {
+      "selector": "#add-edit-department-form [data-field=\"division\"]",
+      "type": "dropdown",
+      "label": "Department form division",
+      "page": "/admin/departments",
+      "priority": "medium",
+      "visited": false,
+      "attempts": 3,
+      "status": "blocked"
+    },
+    {
+      "selector": "#add-edit-department-form [data-field=\"locations\"]",
+      "type": "dropdown",
+      "label": "Department form locations",
+      "page": "/admin/departments",
+      "priority": "medium",
+      "visited": false,
+      "attempts": 3,
+      "status": "blocked"
+    },
+    {
+      "selector": "#add-edit-department-form [data-field=\"status\"]",
+      "type": "dropdown",
+      "label": "Department form status",
+      "page": "/admin/departments",
+      "priority": "medium",
+      "visited": false,
+      "attempts": 3,
+      "status": "blocked"
+    },
+    {
+      "selector": "input[placeholder=\"Department's name\"]",
+      "type": "input",
+      "label": "Department search",
+      "page": "/admin/departments",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "visited"
+    },
+    {
+      "selector": "th:has-text(\"Department\")",
+      "type": "columnheader",
+      "label": "Department sort",
+      "page": "/admin/departments",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "visited"
+    },
+    {
+      "selector": "text=Select Division",
+      "type": "dropdown",
+      "label": "Division filter",
+      "page": "/admin/departments",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "visited"
+    },
+    {
+      "selector": "button:has-text(\"Next\")",
+      "type": "button",
+      "label": "Next page",
+      "page": "/admin/departments",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "visited"
+    },
+    {
+      "selector": "button:has-text(\"Search\")",
+      "type": "button",
+      "label": "Search",
+      "page": "/admin/departments",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "visited"
+    },
+    {
+      "selector": "text=All Status",
+      "type": "dropdown",
+      "label": "Status filter",
+      "page": "/admin/departments",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "visited"
+    }
+  ],
+  "actionsPerformed": [
+    {
+      "selector": "input[placeholder=\"Department's name\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "button:has-text(\"Search\")",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "text=Select Division",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "text=All Status",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "text=Columns",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "th:has-text(\"Department\")",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "th:has-text(\"Created On\")",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "button:has-text(\"Next\")",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "button:has-text(\"Add New\")",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "input[placeholder=\"Enter department name\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "[placeholder=\"Enter description\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "#add-edit-department-form [data-field=\"division\"]",
+      "success": false,
+      "blocked": true
+    },
+    {
+      "selector": "#add-edit-department-form [data-field=\"locations\"]",
+      "success": false,
+      "blocked": true
+    },
+    {
+      "selector": "#add-edit-department-form [data-field=\"status\"]",
+      "success": false,
+      "blocked": true
+    },
+    {
+      "selector": "button:has-text(\"Cancel\")",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "button:has-text(\"Edit department\")",
+      "success": true,
+      "blocked": false
+    }
+  ]
+}

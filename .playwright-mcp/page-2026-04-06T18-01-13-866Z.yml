@@ -1,0 +1,240 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - region "Notifications (F8)":
+      - list
+    - region "Notifications alt+T"
+    - generic [ref=e3]:
+      - complementary [ref=e4]:
+        - img "Logo" [ref=e6]
+        - navigation [ref=e7]:
+          - list [ref=e8]:
+            - listitem [ref=e9]:
+              - button [ref=e10] [cursor=pointer]:
+                - img [ref=e11]
+            - listitem [ref=e14]:
+              - button [ref=e15] [cursor=pointer]:
+                - img [ref=e16]
+            - listitem [ref=e20]:
+              - button [ref=e21] [cursor=pointer]:
+                - img [ref=e22]
+            - listitem [ref=e25]:
+              - button [ref=e26] [cursor=pointer]:
+                - img [ref=e27]
+            - listitem [ref=e39]:
+              - button [ref=e40] [cursor=pointer]:
+                - img [ref=e41]
+            - listitem [ref=e45]:
+              - button [ref=e46] [cursor=pointer]:
+                - img [ref=e47]
+        - generic [ref=e52]: A
+      - generic [ref=e53]:
+        - banner [ref=e54]:
+          - button [ref=e56] [cursor=pointer]:
+            - img [ref=e57]
+          - generic [ref=e60]:
+            - generic [ref=e61]: Welcome, Admin Ids
+            - button [ref=e62] [cursor=pointer]:
+              - img
+        - main [ref=e63]:
+          - generic [ref=e65]:
+            - generic [ref=e67]:
+              - heading "Department Management" [level=2] [ref=e68]
+              - generic [ref=e69]:
+                - generic [ref=e72]:
+                  - generic [ref=e73]:
+                    - img [ref=e74]
+                    - textbox "Department's name" [ref=e77]
+                  - button "Search" [ref=e78] [cursor=pointer]
+                - generic [ref=e79]:
+                  - button "Add New" [ref=e80] [cursor=pointer]:
+                    - img [ref=e81]
+                    - text: Add New
+                  - button "Download Excel" [ref=e82] [cursor=pointer]:
+                    - img [ref=e83]
+                    - text: Download Excel
+            - generic [ref=e86]:
+              - generic [ref=e88] [cursor=pointer]:
+                - generic [ref=e90]:
+                  - combobox [ref=e92]
+                  - generic: Select Division
+                - generic:
+                  - img:
+                    - img
+              - generic [ref=e97] [cursor=pointer]:
+                - generic [ref=e99]:
+                  - combobox [ref=e101]
+                  - generic "All Status" [ref=e102]
+                - generic:
+                  - img:
+                    - img
+            - generic [ref=e104]:
+              - generic [ref=e105]: "Columns:"
+              - generic [ref=e107] [cursor=pointer]:
+                - generic [ref=e110]:
+                  - generic "Department" [ref=e176]:
+                    - generic [ref=e177]: Department
+                    - img [ref=e179]:
+                      - img [ref=e180]
+                  - generic "Division" [ref=e183]:
+                    - generic [ref=e184]: Division
+                    - img [ref=e186]:
+                      - img [ref=e187]
+                  - generic "Location" [ref=e190]:
+                    - generic [ref=e191]: Location
+                    - img [ref=e193]:
+                      - img [ref=e194]
+                  - generic "Status" [ref=e197]:
+                    - generic [ref=e198]: Status
+                    - img [ref=e200]:
+                      - img [ref=e201]
+                  - generic "Created By" [ref=e204]:
+                    - generic [ref=e205]: Created By
+                    - img [ref=e207]:
+                      - img [ref=e208]
+                  - generic "Modified By" [ref=e211]:
+                    - generic [ref=e212]: Modified By
+                    - img [ref=e214]:
+                      - img [ref=e215]
+                  - generic "Created On" [ref=e218]:
+                    - generic [ref=e219]: Created On
+                    - img [ref=e221]:
+                      - img [ref=e222]
+                  - generic:
+                    - generic: Modified On
+                    - generic:
+                      - img:
+                        - img
+                  - generic "+ 1 ..." [ref=e225]:
+                    - generic [ref=e226]: + 1 ...
+                  - combobox [expanded] [active] [ref=e113]
+                - generic:
+                  - img:
+                    - img
+            - table [ref=e115]:
+              - rowgroup [ref=e116]:
+                - row "Department Division Location Status Created By Modified By Created On Modified On Actions" [ref=e117]:
+                  - columnheader "Department" [ref=e118] [cursor=pointer]:
+                    - generic [ref=e119]:
+                      - text: Department
+                      - generic [ref=e385]:
+                        - img [ref=e386]
+                        - img [ref=e388]
+                  - columnheader "Division" [ref=e125] [cursor=pointer]:
+                    - generic [ref=e126]:
+                      - text: Division
+                      - generic [ref=e390]:
+                        - img [ref=e391]
+                        - img [ref=e393]
+                  - columnheader "Location" [ref=e132]
+                  - columnheader "Status" [ref=e133] [cursor=pointer]:
+                    - generic [ref=e134]:
+                      - text: Status
+                      - generic [ref=e395]:
+                        - img [ref=e396]
+                        - img [ref=e398]
+                  - columnheader "Created By" [ref=e140] [cursor=pointer]:
+                    - generic [ref=e141]:
+                      - text: Created By
+                      - generic [ref=e400]:
+                        - img [ref=e401]
+                        - img [ref=e403]
+                  - columnheader "Modified By" [ref=e147]
+                  - columnheader "Created On" [ref=e148] [cursor=pointer]:
+                    - generic [ref=e149]:
+                      - text: Created On
+                      - generic [ref=e405]:
+                        - img [ref=e406]
+                        - img [ref=e408]
+                  - columnheader "Modified On" [ref=e155]
+                  - columnheader "Actions" [ref=e156]
+              - rowgroup [ref=e157]:
+                - row "No departments found" [ref=e348]:
+                  - cell "No departments found" [ref=e349]
+            - generic [ref=e164]:
+              - generic [ref=e165]:
+                - generic [ref=e166]: "Rows per page:"
+                - combobox [disabled] [ref=e167]:
+                  - generic: "5"
+                  - img [ref=e168]
+              - generic [ref=e170]:
+                - generic [ref=e171]: Page 0 of 0 | Total 0
+                - generic [ref=e172]:
+                  - button "Previous" [disabled] [ref=e173]
+                  - button "Next" [disabled] [ref=e174]
+  - generic [ref=e412]:
+    - generic [ref=e413]:
+      - generic [ref=e414]: Visibility
+      - generic [ref=e415]: Order
+    - generic [ref=e416]:
+      - generic [ref=e417]:
+        - button "Department" [ref=e418] [cursor=pointer]:
+          - generic [ref=e420]: Department
+        - generic [ref=e421]:
+          - generic [ref=e422]: "1"
+          - button "Move Department up" [disabled] [ref=e423]:
+            - img [ref=e424]
+          - button "Move Department down" [ref=e426] [cursor=pointer]:
+            - img [ref=e427]
+      - generic [ref=e429]:
+        - button "Division" [ref=e430] [cursor=pointer]:
+          - generic [ref=e432]: Division
+        - generic [ref=e433]:
+          - generic [ref=e434]: "2"
+          - button "Move Division up" [ref=e435] [cursor=pointer]:
+            - img [ref=e436]
+          - button "Move Division down" [ref=e438] [cursor=pointer]:
+            - img [ref=e439]
+      - generic [ref=e441]:
+        - button "Location" [ref=e442] [cursor=pointer]:
+          - generic [ref=e444]: Location
+        - generic [ref=e445]:
+          - generic [ref=e446]: "3"
+          - button "Move Location up" [ref=e447] [cursor=pointer]:
+            - img [ref=e448]
+          - button "Move Location down" [ref=e450] [cursor=pointer]:
+            - img [ref=e451]
+      - generic [ref=e453]:
+        - button "Status" [ref=e454] [cursor=pointer]:
+          - generic [ref=e456]: Status
+        - generic [ref=e457]:
+          - generic [ref=e458]: "4"
+          - button "Move Status up" [ref=e459] [cursor=pointer]:
+            - img [ref=e460]
+          - button "Move Status down" [ref=e462] [cursor=pointer]:
+            - img [ref=e463]
+      - generic [ref=e465]:
+        - button "Created By" [ref=e466] [cursor=pointer]:
+          - generic [ref=e468]: Created By
+        - generic [ref=e469]:
+          - generic [ref=e470]: "5"
+          - button "Move Created By up" [ref=e471] [cursor=pointer]:
+            - img [ref=e472]
+          - button "Move Created By down" [ref=e474] [cursor=pointer]:
+            - img [ref=e475]
+      - generic [ref=e477]:
+        - button "Modified By" [ref=e478] [cursor=pointer]:
+          - generic [ref=e480]: Modified By
+        - generic [ref=e481]:
+          - generic [ref=e482]: "6"
+          - button "Move Modified By up" [ref=e483] [cursor=pointer]:
+            - img [ref=e484]
+          - button "Move Modified By down" [ref=e486] [cursor=pointer]:
+            - img [ref=e487]
+      - generic [ref=e489]:
+        - button "Created On" [ref=e490] [cursor=pointer]:
+          - generic [ref=e492]: Created On
+        - generic [ref=e493]:
+          - generic [ref=e494]: "7"
+          - button "Move Created On up" [ref=e495] [cursor=pointer]:
+            - img [ref=e496]
+          - button "Move Created On down" [ref=e498] [cursor=pointer]:
+            - img [ref=e499]
+      - generic [ref=e501]:
+        - button "Modified On" [ref=e502] [cursor=pointer]:
+          - generic [ref=e504]: Modified On
+        - generic [ref=e505]:
+          - generic [ref=e506]: "8"
+          - button "Move Modified On up" [ref=e507] [cursor=pointer]:
+            - img [ref=e508]
+          - button "Move Modified On down" [disabled] [ref=e510]:
+            - img [ref=e511]

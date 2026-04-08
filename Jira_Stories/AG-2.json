@@ -1,0 +1,23 @@
+{
+  "issueKey": "AG-2",
+  "title": "Test Story",
+  "description": {
+    "type": "doc",
+    "version": 1,
+    "content": [
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "This is a test story to check the working on APIs"
+          }
+        ],
+        "attrs": {
+          "localId": "35ccb747dddd"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-04-07T18:20:23.059Z"
+}

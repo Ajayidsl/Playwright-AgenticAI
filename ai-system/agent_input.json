@@ -1,0 +1,10 @@
+{
+  "task": "application_intelligence",
+  "mode": "module",
+  "modules": [
+    "Departments"
+  ],
+  "scope": {
+    "start_url": "/admin/departments"
+  }
+}

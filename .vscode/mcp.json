@@ -1,0 +1,7 @@
+{
+  "servers": {
+    "playwright": {
+      "command": "playwright-mcp"
+    }
+  }
+}

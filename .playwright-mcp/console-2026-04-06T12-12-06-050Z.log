@@ -1,0 +1,6 @@
+[    1823ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://192.168.71.115/login:0
+[    7295ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://192.168.71.115:9080/auth-service/oauth/token:0
+[    7298ms] [ERROR] Login error: {error: invalid_request, error_description: Invalid username or password} @ http://192.168.71.115/assets/index-ODDTIcWD.js:402
+[    7299ms] [ERROR] Login error: Error: Invalid username or password
+    at c (http://192.168.71.115/assets/index-ODDTIcWD.js:403:7178)
+    at async h (http://192.168.71.115/assets/index-ODDTIcWD.js:732:214602) @ http://192.168.71.115/assets/index-ODDTIcWD.js:731

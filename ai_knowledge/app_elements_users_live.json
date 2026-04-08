@@ -1,0 +1,541 @@
+{
+  "mode": "module",
+  "modules": [
+    "users"
+  ],
+  "summary": {
+    "total": 38,
+    "visited": 30,
+    "blocked": 0,
+    "coverage": 78.9
+  },
+  "elements": [
+    {
+      "selector": "input[placeholder=\"User's name or email\"]",
+      "type": "textbox",
+      "label": "User's name or email",
+      "page": "User Management",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "role=button[name=\"Search\"]",
+      "type": "button",
+      "label": "Search",
+      "page": "User Management",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "role=button[name=\"Add New\"]",
+      "type": "button",
+      "label": "Add New",
+      "page": "User Management",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "role=button[name=\"Download Excel\"]",
+      "type": "button",
+      "label": "Download Excel",
+      "page": "User Management",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 0,
+      "status": "visible_only"
+    },
+    {
+      "selector": "text=All Status",
+      "type": "dropdown-trigger",
+      "label": "Status filter",
+      "page": "User Management",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "text=Active",
+      "type": "dropdown-option",
+      "label": "Active status option",
+      "page": "User Management",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "input[placeholder=\"Select Role(s)\"]",
+      "type": "multiselect",
+      "label": "Select Role(s)",
+      "page": "User Management",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "input[placeholder=\"All Locations\"]",
+      "type": "multiselect",
+      "label": "All Locations",
+      "page": "User Management",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "text=Divisions",
+      "type": "dropdown-trigger",
+      "label": "Division filter",
+      "page": "User Management",
+      "priority": "medium",
+      "visited": false,
+      "attempts": 0,
+      "status": "visible_only"
+    },
+    {
+      "selector": "role=button[name=\"Clear\"]",
+      "type": "button",
+      "label": "Clear",
+      "page": "User Management",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "role=table[name=\"User grid\"]",
+      "type": "table",
+      "label": "User grid",
+      "page": "User Management",
+      "priority": "high",
+      "visited": true,
+      "attempts": 0,
+      "status": "visible"
+    },
+    {
+      "selector": "text=Columns",
+      "type": "column-picker",
+      "label": "Columns",
+      "page": "User Management",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "role=combobox[name=\"Rows per page\"]",
+      "type": "combobox",
+      "label": "Rows per page",
+      "page": "User Management",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "role=button[name=\"Previous\"]",
+      "type": "button",
+      "label": "Previous",
+      "page": "User Management",
+      "priority": "low",
+      "visited": true,
+      "attempts": 0,
+      "status": "disabled_observed"
+    },
+    {
+      "selector": "role=button[name=\"Next\"]",
+      "type": "button",
+      "label": "Next",
+      "page": "User Management",
+      "priority": "low",
+      "visited": true,
+      "attempts": 0,
+      "status": "disabled_observed"
+    },
+    {
+      "selector": "button[data-tooltip-content=\"Edit\"]",
+      "type": "button",
+      "label": "Edit user",
+      "page": "User Management",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "button[data-tooltip-content=\"Assign Division\"]",
+      "type": "button",
+      "label": "Assign Division",
+      "page": "User Management",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "button[data-tooltip-content=\"Delete User\"]",
+      "type": "button",
+      "label": "Delete User",
+      "page": "User Management",
+      "priority": "low",
+      "visited": false,
+      "attempts": 0,
+      "status": "restricted_destructive"
+    },
+    {
+      "selector": "role=dialog[name=\"Add New User\"]",
+      "type": "dialog",
+      "label": "Add New User",
+      "page": "User Management/Add User",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "input[placeholder=\"Enter firstname\"]",
+      "type": "textbox",
+      "label": "First name",
+      "page": "User Management/Add User",
+      "priority": "high",
+      "visited": true,
+      "attempts": 0,
+      "status": "visible"
+    },
+    {
+      "selector": "input[placeholder=\"Enter lastname\"]",
+      "type": "textbox",
+      "label": "Last name",
+      "page": "User Management/Add User",
+      "priority": "high",
+      "visited": true,
+      "attempts": 0,
+      "status": "visible"
+    },
+    {
+      "selector": "input[placeholder=\"Enter email\"]",
+      "type": "textbox",
+      "label": "Email",
+      "page": "User Management/Add User",
+      "priority": "high",
+      "visited": true,
+      "attempts": 0,
+      "status": "visible"
+    },
+    {
+      "selector": "input[placeholder=\"Enter description\"]",
+      "type": "textbox",
+      "label": "Description",
+      "page": "User Management/Add User",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 0,
+      "status": "visible"
+    },
+    {
+      "selector": "input[placeholder=\"Select location(s)\"]",
+      "type": "multiselect",
+      "label": "Locations",
+      "page": "User Management/Add User",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "role=combobox[name=\"Role\"]",
+      "type": "combobox",
+      "label": "Role",
+      "page": "User Management/Add User",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "role=combobox[name=\"Status\"]",
+      "type": "combobox",
+      "label": "Status",
+      "page": "User Management/Add User",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "input[type=\"checkbox\"][aria-label=\"Create\"]",
+      "type": "checkbox",
+      "label": "RMF/PM Create permissions",
+      "page": "User Management/Add User",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 0,
+      "status": "visible"
+    },
+    {
+      "selector": "input[type=\"checkbox\"][aria-label=\"Upload\"]",
+      "type": "checkbox",
+      "label": "RMF/PM Upload permissions",
+      "page": "User Management/Add User",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 0,
+      "status": "visible"
+    },
+    {
+      "selector": "input[type=\"checkbox\"][aria-label=\"Review\"]",
+      "type": "checkbox",
+      "label": "RMF/PM Review permissions",
+      "page": "User Management/Add User",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 0,
+      "status": "visible"
+    },
+    {
+      "selector": "role=switch[name=\"Is Author\"]",
+      "type": "switch",
+      "label": "Is Author",
+      "page": "User Management/Add User",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 0,
+      "status": "visible"
+    },
+    {
+      "selector": "role=button[name=\"Add User\"]",
+      "type": "button",
+      "label": "Add User",
+      "page": "User Management/Add User",
+      "priority": "high",
+      "visited": true,
+      "attempts": 0,
+      "status": "observed_safe_only"
+    },
+    {
+      "selector": "role=dialog[name=\"Edit User\"]",
+      "type": "dialog",
+      "label": "Edit User",
+      "page": "User Management/Edit User",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "input[placeholder=\"Enter email\"][disabled]",
+      "type": "textbox",
+      "label": "Email (read-only)",
+      "page": "User Management/Edit User",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 0,
+      "status": "visible"
+    },
+    {
+      "selector": "input[placeholder=\"Select location(s)\"]",
+      "type": "multiselect",
+      "label": "Locations",
+      "page": "User Management/Edit User",
+      "priority": "high",
+      "visited": true,
+      "attempts": 0,
+      "status": "visible"
+    },
+    {
+      "selector": "role=combobox[name=\"Role\"][data-context=\"edit\"]",
+      "type": "combobox",
+      "label": "Role",
+      "page": "User Management/Edit User",
+      "priority": "high",
+      "visited": true,
+      "attempts": 0,
+      "status": "visible"
+    },
+    {
+      "selector": "role=combobox[name=\"Status\"][data-context=\"edit\"]",
+      "type": "combobox",
+      "label": "Status",
+      "page": "User Management/Edit User",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 0,
+      "status": "visible"
+    },
+    {
+      "selector": "role=button[name=\"Update User\"]",
+      "type": "button",
+      "label": "Update User",
+      "page": "User Management/Edit User",
+      "priority": "high",
+      "visited": true,
+      "attempts": 0,
+      "status": "observed_safe_only"
+    },
+    {
+      "selector": "role=dialog[name=\"Assign Division & Departments\"]",
+      "type": "dialog",
+      "label": "Assign Division & Departments",
+      "page": "User Management/Assign Division",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "role=combobox[name=\"Division\"]",
+      "type": "combobox",
+      "label": "Division",
+      "page": "User Management/Assign Division",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "input[placeholder=\"Departments\"]",
+      "type": "multiselect",
+      "label": "Departments",
+      "page": "User Management/Assign Division",
+      "priority": "high",
+      "visited": true,
+      "attempts": 1,
+      "status": "explored"
+    },
+    {
+      "selector": "role=button[name=\"+ Add Division-Department Group\"]",
+      "type": "button",
+      "label": "Add Division-Department Group",
+      "page": "User Management/Assign Division",
+      "priority": "medium",
+      "visited": true,
+      "attempts": 0,
+      "status": "visible"
+    },
+    {
+      "selector": "role=button[name=\"Remove Group\"]",
+      "type": "button",
+      "label": "Remove Group",
+      "page": "User Management/Assign Division",
+      "priority": "low",
+      "visited": false,
+      "attempts": 0,
+      "status": "restricted_destructive"
+    },
+    {
+      "selector": "role=button[name=\"Save Assignment\"]",
+      "type": "button",
+      "label": "Save Assignment",
+      "page": "User Management/Assign Division",
+      "priority": "high",
+      "visited": true,
+      "attempts": 0,
+      "status": "observed_safe_only"
+    }
+  ],
+  "actionsPerformed": [
+    {
+      "selector": "text=All Status",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "text=Active",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "input[placeholder=\"Select Role(s)\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "input[placeholder=\"All Locations\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "role=button[name=\"Clear\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "role=button[name=\"Add New\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "role=combobox[name=\"Role\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "role=combobox[name=\"Status\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "input[placeholder=\"Select location(s)\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "role=button[name=\"Cancel\"][data-context=\"add\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "button[data-tooltip-content=\"Edit\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "role=button[name=\"Cancel\"][data-context=\"edit\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "button[data-tooltip-content=\"Assign Division\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "input[placeholder=\"Departments\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "role=combobox[name=\"Division\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "role=button[name=\"Cancel\"][data-context=\"assign-division\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "text=Columns",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "role=combobox[name=\"Rows per page\"]",
+      "success": true,
+      "blocked": false
+    },
+    {
+      "selector": "input[placeholder=\"User's name or email\"]",
+      "success": true,
+      "blocked": false
+    }
+  ]
+}

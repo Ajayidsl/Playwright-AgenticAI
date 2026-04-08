@@ -1,0 +1,178 @@
+- generic:
+  - generic:
+    - list
+    - region "Notifications alt+T"
+    - generic:
+      - complementary:
+        - generic:
+          - img
+        - navigation:
+          - list:
+            - listitem:
+              - button:
+                - img
+            - listitem:
+              - button:
+                - img
+            - listitem:
+              - button:
+                - img
+            - listitem:
+              - button:
+                - img
+            - listitem:
+              - button:
+                - img
+            - listitem:
+              - button:
+                - img
+        - generic:
+          - generic: A
+      - generic:
+        - banner:
+          - generic:
+            - button:
+              - img
+          - generic:
+            - generic: Welcome, Admin Ids
+            - button:
+              - img
+        - main:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=2]: Division Management
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                            - textbox:
+                              - /placeholder: Division's name
+                          - button: Search
+                    - generic:
+                      - button:
+                        - img
+                        - text: Add New
+                      - button:
+                        - img
+                        - text: Download Excel
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - combobox
+                          - generic: All Status
+                      - generic:
+                        - img:
+                          - img
+              - generic:
+                - table:
+                  - rowgroup:
+                    - row:
+                      - columnheader:
+                        - generic:
+                          - text: Division
+                          - generic:
+                            - img
+                            - img
+                      - columnheader:
+                        - generic:
+                          - text: Status
+                          - generic:
+                            - img
+                            - img
+                      - columnheader:
+                        - generic:
+                          - text: Created By
+                          - generic:
+                            - img
+                            - img
+                      - columnheader: Modified By
+                      - columnheader:
+                        - generic:
+                          - text: Created On
+                          - generic:
+                            - img
+                            - img
+                      - columnheader: Modified On
+                      - columnheader: Actions
+                  - rowgroup:
+                    - row:
+                      - cell: Auto Division Demo 20260401092707
+                      - cell: Active
+                      - cell: Admin Ids
+                      - cell: "-"
+                      - cell: Apr 1, 2026, 03:27 AM
+                      - cell: "-"
+                      - cell:
+                        - button:
+                          - img
+                    - row:
+                      - cell: Auto Division Demo 20260401091724
+                      - cell: Active
+                      - cell: Admin Ids
+                      - cell: "-"
+                      - cell: Apr 1, 2026, 03:18 AM
+                      - cell: "-"
+                      - cell:
+                        - button:
+                          - img
+                    - row:
+                      - cell: Auto Division Demo 20260401091556
+                      - cell: Active
+                      - cell: Admin Ids
+                      - cell: "-"
+                      - cell: Apr 1, 2026, 03:16 AM
+                      - cell: "-"
+                      - cell:
+                        - button:
+                          - img
+                    - row:
+                      - cell: Automation Division 1774953334646-528
+                      - cell: Active
+                      - cell: Admin Ids
+                      - cell: "-"
+                      - cell: Mar 31, 2026, 04:36 AM
+                      - cell: "-"
+                      - cell:
+                        - button:
+                          - img
+                    - row:
+                      - cell: Automation Division 1774953267082-634
+                      - cell: Active
+                      - cell: Admin Ids
+                      - cell: "-"
+                      - cell: Mar 31, 2026, 04:35 AM
+                      - cell: "-"
+                      - cell:
+                        - button:
+                          - img
+              - generic:
+                - generic:
+                  - generic: "Rows per page:"
+                  - combobox [expanded]:
+                    - generic: "5"
+                    - img
+                - generic:
+                  - generic: Page 1 of 4 | Total 17
+                  - generic:
+                    - button [disabled]: Previous
+                    - button: Next
+  - listbox [ref=e396]:
+    - option "5" [active] [selected] [ref=e397]:
+      - img [ref=e400]
+      - generic [ref=e402]: "5"
+    - option "10" [ref=e403]:
+      - generic [ref=e405]: "10"
+    - option "20" [ref=e406]:
+      - generic [ref=e408]: "20"
+    - option "30" [ref=e409]:
+      - generic [ref=e411]: "30"
+    - option "50" [ref=e412]:
+      - generic [ref=e414]: "50"

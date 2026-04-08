@@ -1,0 +1,207 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - img "Logo" [ref=e6]
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - button [ref=e10] [cursor=pointer]:
+              - img [ref=e11]
+          - listitem [ref=e14]:
+            - button [ref=e15] [cursor=pointer]:
+              - img [ref=e16]
+          - listitem [ref=e20]:
+            - button [ref=e21] [cursor=pointer]:
+              - img [ref=e22]
+          - listitem [ref=e25]:
+            - button [ref=e26] [cursor=pointer]:
+              - img [ref=e27]
+          - listitem [ref=e39]:
+            - button [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+          - listitem [ref=e45]:
+            - button [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+      - generic [ref=e52]: A
+    - generic [ref=e53]:
+      - banner [ref=e54]:
+        - button [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - generic [ref=e60]:
+          - generic [ref=e61]: Welcome, Admin Ids
+          - button [ref=e62] [cursor=pointer]:
+            - img
+      - main [ref=e63]:
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - heading "Department Management" [level=2] [ref=e68]
+            - generic [ref=e69]:
+              - generic [ref=e72]:
+                - generic [ref=e73]:
+                  - img [ref=e74]
+                  - textbox "Department's name" [ref=e77]
+                - button "Search" [ref=e78] [cursor=pointer]
+              - generic [ref=e79]:
+                - button "Add New" [active] [ref=e80] [cursor=pointer]:
+                  - img [ref=e81]
+                  - text: Add New
+                - button "Download Excel" [ref=e82] [cursor=pointer]:
+                  - img [ref=e83]
+                  - text: Download Excel
+          - generic [ref=e86]:
+            - generic [ref=e88] [cursor=pointer]:
+              - generic [ref=e90]:
+                - combobox [ref=e92]
+                - generic: Select Division
+              - generic:
+                - img:
+                  - img
+            - generic [ref=e97] [cursor=pointer]:
+              - generic [ref=e99]:
+                - combobox [ref=e101]
+                - generic "All Status" [ref=e102]
+              - generic:
+                - img:
+                  - img
+          - generic [ref=e104]:
+            - generic [ref=e105]: "Columns:"
+            - generic [ref=e107] [cursor=pointer]:
+              - generic [ref=e110]:
+                - generic "Department" [ref=e112]:
+                  - generic [ref=e113]: Department
+                  - img [ref=e115]:
+                    - img [ref=e116]
+                - generic "Division" [ref=e119]:
+                  - generic [ref=e120]: Division
+                  - img [ref=e122]:
+                    - img [ref=e123]
+                - generic "Location" [ref=e126]:
+                  - generic [ref=e127]: Location
+                  - img [ref=e129]:
+                    - img [ref=e130]
+                - generic "Status" [ref=e133]:
+                  - generic [ref=e134]: Status
+                  - img [ref=e136]:
+                    - img [ref=e137]
+                - generic "Created By" [ref=e140]:
+                  - generic [ref=e141]: Created By
+                  - img [ref=e143]:
+                    - img [ref=e144]
+                - generic "Modified By" [ref=e147]:
+                  - generic [ref=e148]: Modified By
+                  - img [ref=e150]:
+                    - img [ref=e151]
+                - generic "Created On" [ref=e154]:
+                  - generic [ref=e155]: Created On
+                  - img [ref=e157]:
+                    - img [ref=e158]
+                - generic:
+                  - generic: Modified On
+                  - generic:
+                    - img:
+                      - img
+                - generic "+ 1 ..." [ref=e161]:
+                  - generic [ref=e162]: + 1 ...
+                - combobox [ref=e165]
+              - generic:
+                - img:
+                  - img
+          - table [ref=e167]:
+            - rowgroup [ref=e168]:
+              - row "Department Division Location Status Created By Modified By Created On Modified On Actions" [ref=e169]:
+                - columnheader "Department" [ref=e170] [cursor=pointer]:
+                  - generic [ref=e171]:
+                    - text: Department
+                    - generic [ref=e254]:
+                      - img [ref=e255]
+                      - img [ref=e257]
+                - columnheader "Division" [ref=e177] [cursor=pointer]:
+                  - generic [ref=e178]:
+                    - text: Division
+                    - generic [ref=e259]:
+                      - img [ref=e260]
+                      - img [ref=e262]
+                - columnheader "Location" [ref=e184]
+                - columnheader "Status" [ref=e185] [cursor=pointer]:
+                  - generic [ref=e186]:
+                    - text: Status
+                    - generic [ref=e264]:
+                      - img [ref=e265]
+                      - img [ref=e267]
+                - columnheader "Created By" [ref=e192] [cursor=pointer]:
+                  - generic [ref=e193]:
+                    - text: Created By
+                    - generic [ref=e269]:
+                      - img [ref=e270]
+                      - img [ref=e272]
+                - columnheader "Modified By" [ref=e199]
+                - columnheader "Created On" [ref=e200] [cursor=pointer]:
+                  - generic [ref=e201]:
+                    - text: Created On
+                    - generic [ref=e274]:
+                      - img [ref=e275]
+                      - img [ref=e277]
+                - columnheader "Modified On" [ref=e207]
+                - columnheader "Actions" [ref=e208]
+            - rowgroup [ref=e209]:
+              - row "No departments found" [ref=e252]:
+                - cell "No departments found" [ref=e253]
+          - generic [ref=e216]:
+            - generic [ref=e217]:
+              - generic [ref=e218]: "Rows per page:"
+              - combobox [disabled] [ref=e219]:
+                - generic: "5"
+                - img [ref=e220]
+            - generic [ref=e222]:
+              - generic [ref=e223]: Page 0 of 0 | Total 0
+              - generic [ref=e224]:
+                - button "Previous" [disabled] [ref=e225]
+                - button "Next" [disabled] [ref=e226]
+          - generic [ref=e280]:
+            - generic [ref=e281]:
+              - heading "Add Department" [level=3] [ref=e282]:
+                - img [ref=e283]
+                - text: Add Department
+              - button [ref=e285] [cursor=pointer]:
+                - img [ref=e286]
+            - generic [ref=e289]:
+              - generic [ref=e290]:
+                - generic [ref=e291]: Department Name *
+                - generic [ref=e292]:
+                  - img [ref=e293]
+                  - textbox "Enter department name" [ref=e295]
+              - generic [ref=e296]:
+                - generic [ref=e297]: Description
+                - generic [ref=e298]:
+                  - img [ref=e299]
+                  - textbox "Enter description" [ref=e302]
+              - generic [ref=e303]:
+                - generic [ref=e304]: Division *
+                - generic [ref=e305]:
+                  - img [ref=e306]
+                  - combobox [ref=e310] [cursor=pointer]:
+                    - generic: Select Division
+                    - img [ref=e311]
+                  - combobox [ref=e313]
+              - generic [ref=e314]:
+                - generic [ref=e315]: Locations *
+                - generic [ref=e316]:
+                  - img [ref=e317]
+                  - combobox [ref=e320] [cursor=pointer]:
+                    - generic: Add Location
+                    - img [ref=e321]
+                  - combobox [ref=e323]
+              - generic [ref=e324]:
+                - generic [ref=e325]: Status
+                - generic [ref=e326]:
+                  - img [ref=e327]
+                  - combobox [ref=e330] [cursor=pointer]:
+                    - generic: Active
+                    - img [ref=e331]
+                  - combobox [ref=e333]
+              - generic [ref=e334]:
+                - button "Cancel" [ref=e335] [cursor=pointer]
+                - button "Add Department" [ref=e336] [cursor=pointer]

@@ -1,0 +1,117 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e32]:
+    - complementary [ref=e33]:
+      - img "Logo" [ref=e35]
+      - navigation [ref=e36]:
+        - list [ref=e37]:
+          - listitem [ref=e38]:
+            - button [ref=e39] [cursor=pointer]:
+              - img [ref=e40]
+          - listitem [ref=e43]:
+            - button [ref=e44] [cursor=pointer]:
+              - img [ref=e45]
+          - listitem [ref=e49]:
+            - button [ref=e50] [cursor=pointer]:
+              - img [ref=e51]
+          - listitem [ref=e54]:
+            - button [ref=e55] [cursor=pointer]:
+              - img [ref=e56]
+          - listitem [ref=e68]:
+            - button [ref=e69] [cursor=pointer]:
+              - img [ref=e70]
+          - listitem [ref=e74]:
+            - button [ref=e75] [cursor=pointer]:
+              - img [ref=e76]
+      - generic [ref=e81]: A
+    - generic [ref=e82]:
+      - banner [ref=e83]:
+        - button [ref=e85] [cursor=pointer]:
+          - img [ref=e86]
+        - generic [ref=e89]:
+          - generic [ref=e90]: Welcome, Admin Ids
+          - button [ref=e91] [cursor=pointer]:
+            - img
+      - main [ref=e92]:
+        - generic [ref=e94]:
+          - generic [ref=e96]:
+            - heading "Division Management" [level=2] [ref=e97]
+            - generic [ref=e98]:
+              - generic [ref=e101]:
+                - generic [ref=e102]:
+                  - img [ref=e103]
+                  - textbox "Division's name" [ref=e106]: test
+                - button "Search" [ref=e107] [cursor=pointer]
+              - generic [ref=e108]:
+                - button "Add New" [ref=e109] [cursor=pointer]:
+                  - img [ref=e110]
+                  - text: Add New
+                - button "Download Excel" [ref=e111] [cursor=pointer]:
+                  - img [ref=e112]
+                  - text: Download Excel
+          - generic [ref=e115]:
+            - generic [ref=e117] [cursor=pointer]:
+              - generic: Active
+              - generic [ref=e119]:
+                - combobox [active] [ref=e121]
+                - generic "Active" [ref=e274]
+              - generic:
+                - img:
+                  - img
+            - button "Clear" [ref=e275] [cursor=pointer]:
+              - img [ref=e276]
+              - text: Clear
+          - table [ref=e124]:
+            - rowgroup [ref=e125]:
+              - row "Division Status Created By Modified By Created On Modified On Actions" [ref=e126]:
+                - columnheader "Division" [ref=e127] [cursor=pointer]:
+                  - generic [ref=e128]:
+                    - text: Division
+                    - generic [ref=e279]:
+                      - img [ref=e280]
+                      - img [ref=e282]
+                - columnheader "Status" [ref=e134] [cursor=pointer]:
+                  - generic [ref=e135]:
+                    - text: Status
+                    - generic [ref=e284]:
+                      - img [ref=e285]
+                      - img [ref=e287]
+                - columnheader "Created By" [ref=e141] [cursor=pointer]:
+                  - generic [ref=e142]:
+                    - text: Created By
+                    - generic [ref=e289]:
+                      - img [ref=e290]
+                      - img [ref=e292]
+                - columnheader "Modified By" [ref=e148]
+                - columnheader "Created On" [ref=e149] [cursor=pointer]:
+                  - generic [ref=e150]:
+                    - text: Created On
+                    - generic [ref=e294]:
+                      - img [ref=e295]
+                      - img [ref=e297]
+                - columnheader "Modified On" [ref=e156]
+                - columnheader "Actions" [ref=e157]
+            - rowgroup [ref=e158]:
+              - row "Test Division 1774941803645 Active Admin Ids - Mar 31, 2026, 01:23 AM - Edit division" [ref=e299]:
+                - cell "Test Division 1774941803645" [ref=e300]
+                - cell "Active" [ref=e301]
+                - cell "Admin Ids" [ref=e302]
+                - cell "-" [ref=e303]
+                - cell "Mar 31, 2026, 01:23 AM" [ref=e304]
+                - cell "-" [ref=e305]
+                - cell "Edit division" [ref=e306]:
+                  - button "Edit division" [ref=e307] [cursor=pointer]:
+                    - img [ref=e308]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - generic [ref=e221]: "Rows per page:"
+              - combobox [ref=e222] [cursor=pointer]:
+                - generic: "5"
+                - img [ref=e223]
+            - generic [ref=e225]:
+              - generic [ref=e226]: Page 1 of 1 | Total 1
+              - generic [ref=e227]:
+                - button "Previous" [disabled] [ref=e228]
+                - button "Next" [disabled] [ref=e229]
