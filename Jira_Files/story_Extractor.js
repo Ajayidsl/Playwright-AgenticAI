@@ -3,22 +3,22 @@ const path = require('path');
 const { getJiraStory } = require('./jira');
 
 (async () => {
-  const issueKey = "AG-2";
+  const issueKey = process.argv[2] || "AG-2";
 
   try {
     const story = await getJiraStory(issueKey);
 
     console.log("TITLE:", story.title);
-    console.log("DESCRIPTION:", story.description);
+    console.log("STATUS:", story.status);
+    console.log("PRIORITY:", story.priority);
+    console.log("DESCRIPTION:", story.descriptionText || story.description);
 
     const folderPath = path.join(__dirname, '../Jira_Stories');
 
     const filePath = path.join(folderPath, `${issueKey}.json`);
 
     const storyData = {
-      issueKey,
-      title: story.title,
-      description: story.description,
+      ...story,
       fetchedAt: new Date().toISOString()
     };
 
