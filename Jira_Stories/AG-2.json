@@ -10,14 +10,45 @@
         "content": [
           {
             "type": "text",
-            "text": "This is a test story to check the working on APIs"
+            "text": "Login as admin"
+          },
+          {
+            "type": "hardBreak"
+          },
+          {
+            "type": "text",
+            "text": "Go to departments - add departmnet"
           }
         ],
         "attrs": {
-          "localId": "35ccb747dddd"
+          "localId": "fcc1b3f3b2d6"
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "got to users add a gatekeeper type user"
+          }
+        ],
+        "attrs": {
+          "localId": "75f8f840eae7"
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "save and logout"
+          }
+        ],
+        "attrs": {
+          "localId": "475433bd2715"
         }
       }
     ]
   },
-  "fetchedAt": "2026-04-07T18:20:23.059Z"
+  "fetchedAt": "2026-04-09T10:46:47.269Z"
 }

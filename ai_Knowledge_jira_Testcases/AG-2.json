@@ -1,0 +1,150 @@
+{
+  "story_id": "AG-2",
+  "title": "Test Story",
+  "summary": "Executed the Jira story live using Playwright MCP. The flow of admin login, department creation, GateKeeper user creation, save, and logout was achievable in the application.",
+  "actors": [
+    "Admin"
+  ],
+  "preconditions": [
+    "Admin credentials must be valid.",
+    "Application must be reachable at the staging login URL.",
+    "At least one division and one location must exist before adding a department.",
+    "At least one location must exist before adding a user."
+  ],
+  "business_flow": [
+    "Login as admin.",
+    "Navigate to Department Management.",
+    "Open Add Department.",
+    "Provide department name, optional description, division, and at least one location.",
+    "Save the department.",
+    "Navigate to User Management.",
+    "Open Add New User.",
+    "Provide first name, last name, email, role, and at least one location.",
+    "Set role to GateKeeper and save the user.",
+    "Logout."
+  ],
+  "execution_summary": {
+    "status": "passed",
+    "executed_steps": [
+      "Logged in with admin account and landed on /admin/divisions.",
+      "Navigated directly to /admin/departments.",
+      "Opened Add Department and validated required field messaging.",
+      "Created department 'AG2 Dept 20260408-1' with division 'Auto Division Demo 20260401092707' and location 'Auto Location Demo 20260401092707'.",
+      "Observed success toast: 'Department added successfully!'.",
+      "Navigated directly to /admin/users.",
+      "Opened Add New User.",
+      "Changed role from User to Gatekeeper.",
+      "Created user 'AG2 Gatekeeper' with email 'ag2.gatekeeper.20260408@example.com' and location 'Auto Location Demo 20260401092707'.",
+      "Observed success toast: 'User added successfully!'.",
+      "Logged out and returned to /login."
+    ],
+    "observed_behaviors": [
+      "Successful admin login redirected to the admin area.",
+      "Department add form appears inline on the management page.",
+      "Department form defaults status to Active.",
+      "Department can be created after selecting required division and location values.",
+      "User add form defaults role to User and status to Active.",
+      "User role can be changed to Gatekeeper from a dropdown.",
+      "Created GateKeeper user appeared in the user table immediately after save.",
+      "Logout is available from the profile menu in the header."
+    ],
+    "validation_messages": [
+      "Department name is required",
+      "Division selection is required",
+      "Select at least one location",
+      "Department added successfully!",
+      "User added successfully!"
+    ],
+    "navigation_results": [
+      {
+        "from": "/login",
+        "action": "Log In",
+        "to": "/admin/divisions"
+      },
+      {
+        "from": "/admin/divisions",
+        "action": "Navigate to Department Management",
+        "to": "/admin/departments"
+      },
+      {
+        "from": "/admin/departments",
+        "action": "Add Department",
+        "to": "/admin/departments"
+      },
+      {
+        "from": "/admin/departments",
+        "action": "Navigate to User Management",
+        "to": "/admin/users"
+      },
+      {
+        "from": "/admin/users",
+        "action": "Add User",
+        "to": "/admin/users"
+      },
+      {
+        "from": "/admin/users",
+        "action": "Logout",
+        "to": "/login"
+      }
+    ]
+  },
+  "analysis": {
+    "capabilities": [
+      "Admin authentication",
+      "Department creation",
+      "Department required-field validation",
+      "Division selection for departments",
+      "Location assignment for departments",
+      "User creation",
+      "Role selection for users",
+      "GateKeeper user creation",
+      "Location assignment for users",
+      "Logout"
+    ],
+    "validations": [
+      "Department Name is mandatory.",
+      "Division is mandatory for department creation.",
+      "At least one location is mandatory for department creation.",
+      "First name is a required user field.",
+      "Last name is a required user field.",
+      "Email is a required user field.",
+      "Role is a required user field.",
+      "At least one location is required for user creation."
+    ],
+    "test_scenarios": [
+      "Verify admin can log in successfully and access the admin area.",
+      "Verify department creation succeeds with valid name, division, and location.",
+      "Verify the department form shows validation messages when submitted empty.",
+      "Verify department status defaults to Active on create.",
+      "Verify a newly created department appears in the department table after save.",
+      "Verify admin can open Add New User from User Management.",
+      "Verify role can be changed from User to Gatekeeper during user creation.",
+      "Verify GateKeeper user creation succeeds with valid mandatory fields.",
+      "Verify the created GateKeeper user appears in the user list after save.",
+      "Verify logout returns the user to the login page."
+    ],
+    "coverage_gaps": [
+      "The Jira story did not define exact department or user values, so unique runtime values were chosen during execution.",
+      "Negative validation coverage for the Add User form was not fully exercised during this run.",
+      "No duplicate-email validation was checked for user creation.",
+      "No edit, deactivate, or delete flows were covered.",
+      "No role-permission behavior after GateKeeper login was verified."
+    ],
+    "dependencies": [
+      "Existing divisions are required to create a department.",
+      "Existing locations are required to create a department.",
+      "Existing locations are required to create a user.",
+      "User Management depends on available role values including Gatekeeper."
+    ],
+    "assumptions": [
+      "Direct navigation to /admin/departments and /admin/users is valid for this admin role.",
+      "Creating records in this environment is acceptable for live scenario execution.",
+      "The story's wording 'gatekeeper type user' maps to the Gatekeeper role shown in the UI."
+    ]
+  },
+  "notes": [
+    "The Jira story description was brief and represented as Atlassian document JSON in the source file.",
+    "Execution date: 2026-04-08.",
+    "Created artifacts in the app during execution: one department and one GateKeeper user."
+  ]
+}

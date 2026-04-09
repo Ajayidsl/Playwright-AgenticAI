@@ -1,8 +1,25 @@
 
+const path = require('path');
+const dotenv = require('dotenv');
+
+dotenv.config({ path: path.join(__dirname, '../env/.env.prod') });
+
+function normalizeEnvValue(value) {
+  if (!value) {
+    return value;
+  }
+
+  return value.trim().replace(/^[\s"']+|[\s"',;]+$/g, '');
+}
 
 async function getJiraStory(issueKey) {
   const email = "ajayveer.v@idsil.com";
- const apiToken = process.env.apiToken;
+  const apiToken = normalizeEnvValue(process.env.apiToken);
+  const domain = normalizeEnvValue(process.env.domain);
+
+  if (!apiToken || !domain) {
+    throw new Error("Missing Jira configuration: apiToken or domain is not set correctly");
+  }
 
   const url = `https://${domain}/rest/api/3/issue/${issueKey}`;
 
