@@ -12,10 +12,41 @@ Make sure these basics are ready before using any agent:
 
 - The application URL and credentials are available in [`env/.env.prod`](/d:/AgenticAI/AgenticAI/env/.env.prod).
 - Playwright MCP is configured if you plan to use the live-execution agent.
-- Jira story files are available in [`Jira_Stories`](/d:/AgenticAI/AgenticAI/Jira_Stories).
+- Jira story files are available in [`Jira_Stories`](/d:/AgenticAI/AgenticAI/Jira_Stories) if you want file-based story input.
 - Output folders exist:
   - [`ai_knowledge`](/d:/AgenticAI/AgenticAI/ai_knowledge)
   - [`ai_Knowledge_jira_Testcases`](/d:/AgenticAI/AgenticAI/ai_Knowledge_jira_Testcases)
+
+## Jira MCP Setup
+Use this when a new machine or new system needs Jira access through the Atlassian MCP server.
+
+Install `uv` in PowerShell:
+
+```powershell
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+Check that the Atlassian MCP launcher is available:
+
+```powershell
+uvx mcp-atlassian
+```
+
+Configure the MCP server in [`mcp.json`](/d:/AgenticAI/AgenticAI/.vscode/mcp.json):
+- add a server entry named `mcp-atlassian`
+- load Jira settings from [`env/.env.prod`](/d:/AgenticAI/AgenticAI/env/.env.prod) instead of hardcoding secrets in `mcp.json`
+- provide Jira environment variables in the env file:
+  - `JIRA_URL`
+  - `JIRA_USERNAME`
+  - `JIRA_API_TOKEN`
+
+Current repo note:
+- [`mcp.json`](/d:/AgenticAI/AgenticAI/.vscode/mcp.json) already contains a working `mcp-atlassian` entry for `https://idscreativecrew.atlassian.net`
+- live verification was done by successfully reading Jira issue `AG-2`
+
+Important:
+- do not hardcode secrets into prompts or onboarding text for other environments
+- prefer environment variables or local secure config for Jira credentials
 
 ## Agent Overview
 
@@ -58,7 +89,8 @@ Use this agent when:
 - you want execution-backed analysis before testcase generation
 
 What it does:
-- reads a Jira story from [`Jira_Stories`](/d:/AgenticAI/AgenticAI/Jira_Stories)
+- accepts Jira story input directly from the user prompt
+- can also read a Jira story from [`Jira_Stories`](/d:/AgenticAI/AgenticAI/Jira_Stories) or another file path
 - connects to Playwright MCP
 - executes the flow in the live application
 - captures real validations, navigation, observed behavior, and blockers
@@ -68,6 +100,8 @@ What it does not do:
 - it does not generate final test cases directly
 
 Typical input:
+- a pasted Jira story
+- a Jira issue key and story details
 - a story file like [`Jira_Stories/AG-2.json`](/d:/AgenticAI/AgenticAI/Jira_Stories/AG-2.json)
 
 Typical output:
@@ -87,7 +121,8 @@ Use this agent when:
 - you want quick, user-readable BDD-style test cases from the story text alone
 
 What it does:
-- reads a Jira story from [`Jira_Stories`](/d:/AgenticAI/AgenticAI/Jira_Stories)
+- accepts Jira story input directly from the user prompt
+- can also read a Jira story from [`Jira_Stories`](/d:/AgenticAI/AgenticAI/Jira_Stories) or another file path
 - analyzes the story only
 - creates BDD-style test cases in markdown
 - covers positive, negative, validation, navigation, workflow, and edge scenarios where supported by the story
@@ -98,6 +133,8 @@ What it does not do:
 - it does not validate against the live app
 
 Typical input:
+- a pasted Jira story
+- a Jira issue key and story details
 - a story file like [`Jira_Stories/AG-2.json`](/d:/AgenticAI/AgenticAI/Jira_Stories/AG-2.json)
 
 Typical output:
@@ -152,7 +189,7 @@ Use this workflow for:
 ### Workflow B: Story-Only Test Design
 Use this when you only have a Jira story and want quick BDD cases.
 
-1. Extract or place the Jira story JSON in [`Jira_Stories`](/d:/AgenticAI/AgenticAI/Jira_Stories).
+1. Provide the Jira story directly in the prompt, or place the Jira story JSON in [`Jira_Stories`](/d:/AgenticAI/AgenticAI/Jira_Stories).
 2. Run the Jira Story Agent.
 3. Review the generated markdown test cases in [`ai_Knowledge_jira_Testcases`](/d:/AgenticAI/AgenticAI/ai_Knowledge_jira_Testcases).
 
@@ -164,11 +201,20 @@ Use this workflow for:
 ### Workflow C: Story Validation Against Live App
 Use this when you want the Jira story checked against the real application before testcase generation.
 
-1. Extract or place the Jira story JSON in [`Jira_Stories`](/d:/AgenticAI/AgenticAI/Jira_Stories).
+1. Provide the Jira story directly in the prompt, or place the Jira story JSON in [`Jira_Stories`](/d:/AgenticAI/AgenticAI/Jira_Stories).
 2. Ensure Playwright MCP is available.
 3. Run the Jira Story Live Agent.
 4. Review the execution-backed story analysis JSON in [`ai_Knowledge_jira_Testcases`](/d:/AgenticAI/AgenticAI/ai_Knowledge_jira_Testcases).
 5. Use that output as input for downstream testcase design or review.
+
+### Workflow D: Pull Story From Jira Before Processing
+Use this when the story already exists in Jira and you want to work from the live issue.
+
+1. Ensure the Atlassian MCP setup in [`mcp.json`](/d:/AgenticAI/AgenticAI/.vscode/mcp.json) is valid.
+2. Verify `uv` and `uvx mcp-atlassian` are available on the machine.
+3. Read the Jira story from Jira using the issue key or Jira URL.
+4. Feed the returned story details into the Jira Story Agent for offline BDD testcase generation, or into the Jira Story Live Agent for Playwright-backed execution.
+5. Save the generated output under [`ai_Knowledge_jira_Testcases`](/d:/AgenticAI/AgenticAI/ai_Knowledge_jira_Testcases).
 
 Use this workflow for:
 - story verification
@@ -196,11 +242,11 @@ Application Intelligence Agent:
 - output: app intelligence JSON
 
 Jira Story Agent:
-- input: Jira story JSON
+- input: direct Jira story text, Jira story JSON, or a Jira story file
 - output: BDD markdown test cases
 
 Jira Story Live Agent:
-- input: Jira story JSON plus live app access
+- input: direct Jira story text, Jira story JSON, or a Jira story file, plus live app access
 - output: execution-backed story analysis JSON
 
 Test Case Generator Agent:
@@ -211,6 +257,7 @@ Test Case Generator Agent:
 
 - Start with one small module first instead of the whole app.
 - Keep Jira story files one per JSON file.
+- If Jira MCP is available, prefer reading the latest story details from Jira before processing.
 - Review generated outputs before chaining them into the next step.
 - Use the story-only agent when speed matters.
 - Use the live agent when accuracy against the real app matters.
@@ -220,6 +267,7 @@ Test Case Generator Agent:
 
 - Story source: [`Jira_Stories/AG-2.json`](/d:/AgenticAI/AgenticAI/Jira_Stories/AG-2.json)
 - Story-only output: [`ai_Knowledge_jira_Testcases/AG-2_testcases.md`](/d:/AgenticAI/AgenticAI/ai_Knowledge_jira_Testcases/AG-2_testcases.md)
+- Story-only output from live Jira read: [`ai_Knowledge_jira_Testcases/AG-2_testcases_1.md`](/d:/AgenticAI/AgenticAI/ai_Knowledge_jira_Testcases/AG-2_testcases_1.md)
 - Live execution output: [`ai_Knowledge_jira_Testcases/AG-2.json`](/d:/AgenticAI/AgenticAI/ai_Knowledge_jira_Testcases/AG-2.json)
 - App intelligence sample: [`ai_knowledge/modules/Departments/app_intelligence.json`](/d:/AgenticAI/AgenticAI/ai_knowledge/modules/Departments/app_intelligence.json)
 - Generated testcase sample: [`ai_knowledge/testcases_Departments.json`](/d:/AgenticAI/AgenticAI/ai_knowledge/testcases_Departments.json)
